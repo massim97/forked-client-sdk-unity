@@ -3,6 +3,7 @@ using LiveKit.Proto;
 using Unity.Collections;
 using UnityEngine.Experimental.Rendering;
 using System.Runtime.InteropServices;
+using System;
 
 namespace LiveKit
 {
@@ -81,9 +82,18 @@ namespace LiveKit
             }
 
             CamTexture.GetPixels32(_readBuffer);
+#if UNITY_2022_1_OR_NEWER
             MemoryMarshal.Cast<Color32, byte>(_readBuffer)
                 .CopyTo(_captureBuffer.AsSpan());
+#else
+            Span<byte> byteSpan = MemoryMarshal.AsBytes(_readBuffer.AsSpan());
 
+            // Copy manually to NativeArray
+            for (int i = 0; i < byteSpan.Length; i++)
+            {
+                _captureBuffer[i] = byteSpan[i];
+            }
+#endif
             _requestPending = true;
 
             if (CamTexture.graphicsFormat != _previewTexture.graphicsFormat)
