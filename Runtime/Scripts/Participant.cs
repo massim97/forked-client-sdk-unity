@@ -338,6 +338,10 @@ namespace LiveKit
             {
                 publish.DestinationIdentities.AddRange(destination_identities);
             }
+            else
+            {
+                publish.DestinationIdentities.Clear();
+            }
 
             if (topic is not null)
             {
