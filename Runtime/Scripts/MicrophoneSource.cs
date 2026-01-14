@@ -1,5 +1,7 @@
+#if !UNITY_WEBGL
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace LiveKit
@@ -12,6 +14,9 @@ namespace LiveKit
     /// </remarks>
     sealed public class MicrophoneSource : RtcAudioSource
     {
+        private static readonly Dictionary<string, int> _currentMicrophoneAccesses = new Dictionary<string, int>();
+        private static readonly object _lock = new object();
+
         private readonly GameObject _sourceObject;
         private readonly string _deviceName;
 
@@ -48,7 +53,6 @@ namespace LiveKit
             base.Start();
             if (_started) return;
 
-
             if (!Application.HasUserAuthorization(mode: UserAuthorization.Microphone))
                 throw new InvalidOperationException("Microphone access not authorized");
 
@@ -60,27 +64,77 @@ namespace LiveKit
 
         private IEnumerator StartMicrophone()
         {
-             var clip = Microphone.Start(
-                _deviceName,
-                loop: true,
-                lengthSec: 1,
-                frequency: (int)DefaultMicrophoneSampleRate
-            );
-            if (clip == null)
-                throw new InvalidOperationException("Microphone start failed");
+            bool shouldStartDevice = false;
+            
+            lock (_lock)
+            {
+                if (!_currentMicrophoneAccesses.ContainsKey(_deviceName))
+                {
+                    _currentMicrophoneAccesses[_deviceName] = 0;
+                }
+                
+                if (_currentMicrophoneAccesses[_deviceName] == 0)
+                {
+                    shouldStartDevice = true;
+                }
+                
+                _currentMicrophoneAccesses[_deviceName]++;
+            }
 
-            var source = _sourceObject.AddComponent<AudioSource>();
-            source.clip = clip;
-            source.loop = true;
+            if (shouldStartDevice)
+            {
+                var clip = Microphone.Start(
+                    _deviceName,
+                    loop: true,
+                    lengthSec: 1,
+                    frequency: (int)DefaultMicrophoneSampleRate
+                );
+                if (clip == null)
+                {
+                    lock (_lock)
+                    {
+                        _currentMicrophoneAccesses[_deviceName]--;
+                    }
+                    throw new InvalidOperationException("Microphone start failed");
+                }
 
-            var probe = _sourceObject.AddComponent<AudioProbe>();
+                var source = _sourceObject.GetComponent<AudioSource>();
+                if (source == null)
+                    source = _sourceObject.AddComponent<AudioSource>();
+                source.clip = clip;
+                source.loop = true;
+
+                var waitUntilReady = new WaitUntil(() => Microphone.GetPosition(_deviceName) > 0);
+                yield return waitUntilReady;
+                source.Play();
+            }
+            else
+            {
+
+                var source = _sourceObject.GetComponent<AudioSource>();
+                if (source == null)
+                    source = _sourceObject.AddComponent<AudioSource>();
+                
+                var allSources = UnityEngine.Object.FindObjectsOfType<AudioSource>();
+                foreach (var src in allSources)
+                {
+                    if (src != source && src.clip != null && src.isPlaying)
+                    {
+                        source.clip = src.clip;
+                        source.loop = true;
+                        source.Play();
+                        break;
+                    }
+                }
+            }
+
+            var probe = _sourceObject.GetComponent<AudioProbe>();
+            if (probe == null)
+                probe = _sourceObject.AddComponent<AudioProbe>();
+
             // Clear the audio data after it is read as to not play it through the speaker locally.
             probe.ClearAfterInvocation();
             probe.AudioRead += OnAudioRead;
-
-            var waitUntilReady = new WaitUntil(() => Microphone.GetPosition(_deviceName) > 0);
-            yield return waitUntilReady;
-            source.Play();
         }
 
         /// <summary>
@@ -96,15 +150,30 @@ namespace LiveKit
 
         private IEnumerator StopMicrophone()
         {
-            if (Microphone.IsRecording(_deviceName))
-                Microphone.End(_deviceName);
-
             var probe = _sourceObject.GetComponent<AudioProbe>();
-            probe.AudioRead -= OnAudioRead;
-            UnityEngine.Object.Destroy(probe);
+            if (probe != null)
+                probe.AudioRead -= OnAudioRead;
 
-            var source = _sourceObject.GetComponent<AudioSource>();
-            UnityEngine.Object.Destroy(source);
+            bool shouldStopDevice = false;
+            
+            lock (_lock)
+            {
+                if (_currentMicrophoneAccesses.ContainsKey(_deviceName))
+                {
+                    _currentMicrophoneAccesses[_deviceName]--;
+                    
+                    if (_currentMicrophoneAccesses[_deviceName] <= 0)
+                    {
+                        _currentMicrophoneAccesses.Remove(_deviceName);
+                        shouldStopDevice = true;
+                    }
+                }
+            }
+            if (shouldStopDevice && Microphone.IsRecording(_deviceName))
+            {
+                Microphone.End(_deviceName);
+            }
+
             yield return null;
         }
 
@@ -138,3 +207,4 @@ namespace LiveKit
         }
     }
 }
+#endif
