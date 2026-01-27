@@ -248,7 +248,7 @@ namespace LiveKit
         public sealed class ReadIncrementalInstruction : StreamYieldInstruction
         {
             private readonly FfiHandle _handle;
-            private string _latestChunk;
+            private string _receivedChunks;
 
             internal ReadIncrementalInstruction(FfiHandle readerHandle)
             {
@@ -264,7 +264,7 @@ namespace LiveKit
                 switch (e.DetailCase)
                 {
                     case TextStreamReaderEvent.DetailOneofCase.ChunkReceived:
-                        _latestChunk = e.ChunkReceived.Content;
+                        _receivedChunks += e.ChunkReceived.Content;
                         IsCurrentReadDone = true;
                         break;
                     case TextStreamReaderEvent.DetailOneofCase.Eos:
@@ -278,13 +278,15 @@ namespace LiveKit
                 }
             }
 
-            public string Text
+            public string ReadChunks()
             {
-                get
-                {
-                    if (Error != null) throw Error;
-                    return _latestChunk;
-                }
+                if (Error != null) throw Error;
+                return _receivedChunks;
+            }
+            override public void Reset()
+            {
+                _receivedChunks = "";
+                base.Reset();
             }
 
             /// <summary>
