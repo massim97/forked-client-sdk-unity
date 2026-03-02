@@ -55,6 +55,9 @@ namespace LiveKit.Internal.FFIClients
                 case GetStatsRequest getStatsRequest:
                     ffiRequest.GetStats = getStatsRequest;
                     break;
+                case EnableRemoteTrackRequest enableRemoteTrackRequest:
+                    ffiRequest.EnableRemoteTrack = enableRemoteTrackRequest;
+                    break;
                 // Video
                 case NewVideoStreamRequest newVideoStreamRequest:
                     ffiRequest.NewVideoStream = newVideoStreamRequest;
@@ -175,6 +178,7 @@ namespace LiveKit.Internal.FFIClients
                 request.CreateVideoTrack != null
                 || request.CreateAudioTrack != null
                 || request.GetStats != null
+                || request.EnableRemoteTrack != null
                 ||
 
                 // Video
@@ -231,6 +235,7 @@ namespace LiveKit.Internal.FFIClients
                 response.CreateVideoTrack != null
                 || response.CreateAudioTrack != null
                 || response.GetStats != null
+                || response.EnableRemoteTrack != null
                 ||
 
                 // Video

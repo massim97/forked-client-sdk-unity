@@ -63,6 +63,11 @@ namespace LiveKit
             setSubscribed.PublicationHandle = (ulong)Handle.DangerousGetHandle();
             using var response = request.Send();
         }
+
+        public void SetEnabled(bool enabled)
+        {
+            Track?.SetEnabled(enabled);
+        }
     }
 
     public sealed class LocalTrackPublication : TrackPublication
