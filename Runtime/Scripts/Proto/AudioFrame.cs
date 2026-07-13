@@ -25,124 +25,152 @@ namespace LiveKit.Proto {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChFhdWRpb19mcmFtZS5wcm90bxINbGl2ZWtpdC5wcm90bxoMaGFuZGxlLnBy",
-            "b3RvGgt0cmFjay5wcm90byLEAQoVTmV3QXVkaW9TdHJlYW1SZXF1ZXN0EhQK",
+            "b3RvGgt0cmFjay5wcm90byL2AQoVTmV3QXVkaW9TdHJlYW1SZXF1ZXN0EhQK",
             "DHRyYWNrX2hhbmRsZRgBIAIoBBIsCgR0eXBlGAIgAigOMh4ubGl2ZWtpdC5w",
             "cm90by5BdWRpb1N0cmVhbVR5cGUSEwoLc2FtcGxlX3JhdGUYAyABKA0SFAoM",
             "bnVtX2NoYW5uZWxzGAQgASgNEh4KFmF1ZGlvX2ZpbHRlcl9tb2R1bGVfaWQY",
-            "BSABKAkSHAoUYXVkaW9fZmlsdGVyX29wdGlvbnMYBiABKAkiSQoWTmV3QXVk",
-            "aW9TdHJlYW1SZXNwb25zZRIvCgZzdHJlYW0YASACKAsyHy5saXZla2l0LnBy",
-            "b3RvLk93bmVkQXVkaW9TdHJlYW0iiAIKIUF1ZGlvU3RyZWFtRnJvbVBhcnRp",
-            "Y2lwYW50UmVxdWVzdBIaChJwYXJ0aWNpcGFudF9oYW5kbGUYASACKAQSLAoE",
-            "dHlwZRgCIAIoDjIeLmxpdmVraXQucHJvdG8uQXVkaW9TdHJlYW1UeXBlEjAK",
-            "DHRyYWNrX3NvdXJjZRgDIAEoDjIaLmxpdmVraXQucHJvdG8uVHJhY2tTb3Vy",
-            "Y2USEwoLc2FtcGxlX3JhdGUYBSABKA0SFAoMbnVtX2NoYW5uZWxzGAYgASgN",
-            "Eh4KFmF1ZGlvX2ZpbHRlcl9tb2R1bGVfaWQYByABKAkSHAoUYXVkaW9fZmls",
-            "dGVyX29wdGlvbnMYCCABKAkiVQoiQXVkaW9TdHJlYW1Gcm9tUGFydGljaXBh",
-            "bnRSZXNwb25zZRIvCgZzdHJlYW0YASACKAsyHy5saXZla2l0LnByb3RvLk93",
-            "bmVkQXVkaW9TdHJlYW0iuwEKFU5ld0F1ZGlvU291cmNlUmVxdWVzdBIsCgR0",
-            "eXBlGAEgAigOMh4ubGl2ZWtpdC5wcm90by5BdWRpb1NvdXJjZVR5cGUSMgoH",
-            "b3B0aW9ucxgCIAEoCzIhLmxpdmVraXQucHJvdG8uQXVkaW9Tb3VyY2VPcHRp",
-            "b25zEhMKC3NhbXBsZV9yYXRlGAMgAigNEhQKDG51bV9jaGFubmVscxgEIAIo",
-            "DRIVCg1xdWV1ZV9zaXplX21zGAUgASgNIkkKFk5ld0F1ZGlvU291cmNlUmVz",
-            "cG9uc2USLwoGc291cmNlGAEgAigLMh8ubGl2ZWtpdC5wcm90by5Pd25lZEF1",
-            "ZGlvU291cmNlImYKGENhcHR1cmVBdWRpb0ZyYW1lUmVxdWVzdBIVCg1zb3Vy",
-            "Y2VfaGFuZGxlGAEgAigEEjMKBmJ1ZmZlchgCIAIoCzIjLmxpdmVraXQucHJv",
-            "dG8uQXVkaW9GcmFtZUJ1ZmZlckluZm8iLQoZQ2FwdHVyZUF1ZGlvRnJhbWVS",
-            "ZXNwb25zZRIQCghhc3luY19pZBgBIAIoBCI8ChlDYXB0dXJlQXVkaW9GcmFt",
-            "ZUNhbGxiYWNrEhAKCGFzeW5jX2lkGAEgAigEEg0KBWVycm9yGAIgASgJIjAK",
-            "F0NsZWFyQXVkaW9CdWZmZXJSZXF1ZXN0EhUKDXNvdXJjZV9oYW5kbGUYASAC",
-            "KAQiGgoYQ2xlYXJBdWRpb0J1ZmZlclJlc3BvbnNlIhoKGE5ld0F1ZGlvUmVz",
-            "YW1wbGVyUmVxdWVzdCJSChlOZXdBdWRpb1Jlc2FtcGxlclJlc3BvbnNlEjUK",
-            "CXJlc2FtcGxlchgBIAIoCzIiLmxpdmVraXQucHJvdG8uT3duZWRBdWRpb1Jl",
-            "c2FtcGxlciKTAQoXUmVtaXhBbmRSZXNhbXBsZVJlcXVlc3QSGAoQcmVzYW1w",
-            "bGVyX2hhbmRsZRgBIAIoBBIzCgZidWZmZXIYAiACKAsyIy5saXZla2l0LnBy",
-            "b3RvLkF1ZGlvRnJhbWVCdWZmZXJJbmZvEhQKDG51bV9jaGFubmVscxgDIAIo",
-            "DRITCgtzYW1wbGVfcmF0ZRgEIAIoDSJQChhSZW1peEFuZFJlc2FtcGxlUmVz",
-            "cG9uc2USNAoGYnVmZmVyGAEgAigLMiQubGl2ZWtpdC5wcm90by5Pd25lZEF1",
-            "ZGlvRnJhbWVCdWZmZXIilQEKDU5ld0FwbVJlcXVlc3QSHgoWZWNob19jYW5j",
-            "ZWxsZXJfZW5hYmxlZBgBIAIoCBIfChdnYWluX2NvbnRyb2xsZXJfZW5hYmxl",
-            "ZBgCIAIoCBIgChhoaWdoX3Bhc3NfZmlsdGVyX2VuYWJsZWQYAyACKAgSIQoZ",
-            "bm9pc2Vfc3VwcHJlc3Npb25fZW5hYmxlZBgEIAIoCCI2Cg5OZXdBcG1SZXNw",
-            "b25zZRIkCgNhcG0YASACKAsyFy5saXZla2l0LnByb3RvLk93bmVkQXBtIngK",
-            "F0FwbVByb2Nlc3NTdHJlYW1SZXF1ZXN0EhIKCmFwbV9oYW5kbGUYASACKAQS",
-            "EAoIZGF0YV9wdHIYAiACKAQSDAoEc2l6ZRgDIAIoDRITCgtzYW1wbGVfcmF0",
-            "ZRgEIAIoDRIUCgxudW1fY2hhbm5lbHMYBSACKA0iKQoYQXBtUHJvY2Vzc1N0",
-            "cmVhbVJlc3BvbnNlEg0KBWVycm9yGAEgASgJIn8KHkFwbVByb2Nlc3NSZXZl",
-            "cnNlU3RyZWFtUmVxdWVzdBISCgphcG1faGFuZGxlGAEgAigEEhAKCGRhdGFf",
-            "cHRyGAIgAigEEgwKBHNpemUYAyACKA0SEwoLc2FtcGxlX3JhdGUYBCACKA0S",
-            "FAoMbnVtX2NoYW5uZWxzGAUgAigNIjAKH0FwbVByb2Nlc3NSZXZlcnNlU3Ry",
-            "ZWFtUmVzcG9uc2USDQoFZXJyb3IYASABKAkiQAoYQXBtU2V0U3RyZWFtRGVs",
-            "YXlSZXF1ZXN0EhIKCmFwbV9oYW5kbGUYASACKAQSEAoIZGVsYXlfbXMYAiAC",
-            "KAUiKgoZQXBtU2V0U3RyZWFtRGVsYXlSZXNwb25zZRINCgVlcnJvchgBIAEo",
-            "CSKcAgoWTmV3U294UmVzYW1wbGVyUmVxdWVzdBISCgppbnB1dF9yYXRlGAEg",
-            "AigBEhMKC291dHB1dF9yYXRlGAIgAigBEhQKDG51bV9jaGFubmVscxgDIAIo",
-            "DRI8Cg9pbnB1dF9kYXRhX3R5cGUYBCACKA4yIy5saXZla2l0LnByb3RvLlNv",
-            "eFJlc2FtcGxlckRhdGFUeXBlEj0KEG91dHB1dF9kYXRhX3R5cGUYBSACKA4y",
-            "Iy5saXZla2l0LnByb3RvLlNveFJlc2FtcGxlckRhdGFUeXBlEjcKDnF1YWxp",
-            "dHlfcmVjaXBlGAYgAigOMh8ubGl2ZWtpdC5wcm90by5Tb3hRdWFsaXR5UmVj",
-            "aXBlEg0KBWZsYWdzGAcgASgNImwKF05ld1NveFJlc2FtcGxlclJlc3BvbnNl",
-            "EjUKCXJlc2FtcGxlchgBIAEoCzIgLmxpdmVraXQucHJvdG8uT3duZWRTb3hS",
-            "ZXNhbXBsZXJIABIPCgVlcnJvchgCIAEoCUgAQgkKB21lc3NhZ2UiUwoXUHVz",
-            "aFNveFJlc2FtcGxlclJlcXVlc3QSGAoQcmVzYW1wbGVyX2hhbmRsZRgBIAIo",
-            "BBIQCghkYXRhX3B0chgCIAIoBBIMCgRzaXplGAMgAigNIksKGFB1c2hTb3hS",
-            "ZXNhbXBsZXJSZXNwb25zZRISCgpvdXRwdXRfcHRyGAEgAigEEgwKBHNpemUY",
-            "AiACKA0SDQoFZXJyb3IYAyABKAkiNAoYRmx1c2hTb3hSZXNhbXBsZXJSZXF1",
-            "ZXN0EhgKEHJlc2FtcGxlcl9oYW5kbGUYASACKAQiTAoZRmx1c2hTb3hSZXNh",
-            "bXBsZXJSZXNwb25zZRISCgpvdXRwdXRfcHRyGAEgAigEEgwKBHNpemUYAiAC",
-            "KA0SDQoFZXJyb3IYAyABKAkicAoUQXVkaW9GcmFtZUJ1ZmZlckluZm8SEAoI",
-            "ZGF0YV9wdHIYASACKAQSFAoMbnVtX2NoYW5uZWxzGAIgAigNEhMKC3NhbXBs",
-            "ZV9yYXRlGAMgAigNEhsKE3NhbXBsZXNfcGVyX2NoYW5uZWwYBCACKA0ieQoV",
-            "T3duZWRBdWRpb0ZyYW1lQnVmZmVyEi0KBmhhbmRsZRgBIAIoCzIdLmxpdmVr",
-            "aXQucHJvdG8uRmZpT3duZWRIYW5kbGUSMQoEaW5mbxgCIAIoCzIjLmxpdmVr",
-            "aXQucHJvdG8uQXVkaW9GcmFtZUJ1ZmZlckluZm8iPwoPQXVkaW9TdHJlYW1J",
-            "bmZvEiwKBHR5cGUYASACKA4yHi5saXZla2l0LnByb3RvLkF1ZGlvU3RyZWFt",
-            "VHlwZSJvChBPd25lZEF1ZGlvU3RyZWFtEi0KBmhhbmRsZRgBIAIoCzIdLmxp",
-            "dmVraXQucHJvdG8uRmZpT3duZWRIYW5kbGUSLAoEaW5mbxgCIAIoCzIeLmxp",
-            "dmVraXQucHJvdG8uQXVkaW9TdHJlYW1JbmZvIp8BChBBdWRpb1N0cmVhbUV2",
-            "ZW50EhUKDXN0cmVhbV9oYW5kbGUYASACKAQSOwoOZnJhbWVfcmVjZWl2ZWQY",
-            "AiABKAsyIS5saXZla2l0LnByb3RvLkF1ZGlvRnJhbWVSZWNlaXZlZEgAEiwK",
-            "A2VvcxgDIAEoCzIdLmxpdmVraXQucHJvdG8uQXVkaW9TdHJlYW1FT1NIAEIJ",
-            "CgdtZXNzYWdlIkkKEkF1ZGlvRnJhbWVSZWNlaXZlZBIzCgVmcmFtZRgBIAIo",
-            "CzIkLmxpdmVraXQucHJvdG8uT3duZWRBdWRpb0ZyYW1lQnVmZmVyIhAKDkF1",
-            "ZGlvU3RyZWFtRU9TImUKEkF1ZGlvU291cmNlT3B0aW9ucxIZChFlY2hvX2Nh",
-            "bmNlbGxhdGlvbhgBIAIoCBIZChFub2lzZV9zdXBwcmVzc2lvbhgCIAIoCBIZ",
-            "ChFhdXRvX2dhaW5fY29udHJvbBgDIAIoCCI/Cg9BdWRpb1NvdXJjZUluZm8S",
-            "LAoEdHlwZRgCIAIoDjIeLmxpdmVraXQucHJvdG8uQXVkaW9Tb3VyY2VUeXBl",
-            "Im8KEE93bmVkQXVkaW9Tb3VyY2USLQoGaGFuZGxlGAEgAigLMh0ubGl2ZWtp",
-            "dC5wcm90by5GZmlPd25lZEhhbmRsZRIsCgRpbmZvGAIgAigLMh4ubGl2ZWtp",
-            "dC5wcm90by5BdWRpb1NvdXJjZUluZm8iFAoSQXVkaW9SZXNhbXBsZXJJbmZv",
-            "InUKE093bmVkQXVkaW9SZXNhbXBsZXISLQoGaGFuZGxlGAEgAigLMh0ubGl2",
-            "ZWtpdC5wcm90by5GZmlPd25lZEhhbmRsZRIvCgRpbmZvGAIgAigLMiEubGl2",
-            "ZWtpdC5wcm90by5BdWRpb1Jlc2FtcGxlckluZm8iOQoIT3duZWRBcG0SLQoG",
-            "aGFuZGxlGAEgAigLMh0ubGl2ZWtpdC5wcm90by5GZmlPd25lZEhhbmRsZSIS",
-            "ChBTb3hSZXNhbXBsZXJJbmZvInEKEU93bmVkU294UmVzYW1wbGVyEi0KBmhh",
-            "bmRsZRgBIAIoCzIdLmxpdmVraXQucHJvdG8uRmZpT3duZWRIYW5kbGUSLQoE",
-            "aW5mbxgCIAIoCzIfLmxpdmVraXQucHJvdG8uU294UmVzYW1wbGVySW5mbyJc",
-            "ChxMb2FkQXVkaW9GaWx0ZXJQbHVnaW5SZXF1ZXN0EhMKC3BsdWdpbl9wYXRo",
-            "GAEgAigJEhQKDGRlcGVuZGVuY2llcxgCIAMoCRIRCgltb2R1bGVfaWQYAyAC",
-            "KAkiLgodTG9hZEF1ZGlvRmlsdGVyUGx1Z2luUmVzcG9uc2USDQoFZXJyb3IY",
-            "ASABKAkqSgoUU294UmVzYW1wbGVyRGF0YVR5cGUSGAoUU09YUl9EQVRBVFlQ",
-            "RV9JTlQxNkkQABIYChRTT1hSX0RBVEFUWVBFX0lOVDE2UxABKosBChBTb3hR",
-            "dWFsaXR5UmVjaXBlEhYKElNPWFJfUVVBTElUWV9RVUlDSxAAEhQKEFNPWFJf",
-            "UVVBTElUWV9MT1cQARIXChNTT1hSX1FVQUxJVFlfTUVESVVNEAISFQoRU09Y",
-            "Ul9RVUFMSVRZX0hJR0gQAxIZChVTT1hSX1FVQUxJVFlfVkVSWUhJR0gQBCqX",
-            "AQoLU294RmxhZ0JpdHMSFgoSU09YUl9ST0xMT0ZGX1NNQUxMEAASFwoTU09Y",
-            "Ul9ST0xMT0ZGX01FRElVTRABEhUKEVNPWFJfUk9MTE9GRl9OT05FEAISGAoU",
-            "U09YUl9ISUdIX1BSRUNfQ0xPQ0sQAxIZChVTT1hSX0RPVUJMRV9QUkVDSVNJ",
-            "T04QBBILCgdTT1hSX1ZSEAUqQQoPQXVkaW9TdHJlYW1UeXBlEhcKE0FVRElP",
-            "X1NUUkVBTV9OQVRJVkUQABIVChFBVURJT19TVFJFQU1fSFRNTBABKioKD0F1",
-            "ZGlvU291cmNlVHlwZRIXChNBVURJT19TT1VSQ0VfTkFUSVZFEABCEKoCDUxp",
-            "dmVLaXQuUHJvdG8="));
+            "BSABKAkSHAoUYXVkaW9fZmlsdGVyX29wdGlvbnMYBiABKAkSFQoNZnJhbWVf",
+            "c2l6ZV9tcxgHIAEoDRIZChFxdWV1ZV9zaXplX2ZyYW1lcxgIIAEoDSJJChZO",
+            "ZXdBdWRpb1N0cmVhbVJlc3BvbnNlEi8KBnN0cmVhbRgBIAIoCzIfLmxpdmVr",
+            "aXQucHJvdG8uT3duZWRBdWRpb1N0cmVhbSK6AgohQXVkaW9TdHJlYW1Gcm9t",
+            "UGFydGljaXBhbnRSZXF1ZXN0EhoKEnBhcnRpY2lwYW50X2hhbmRsZRgBIAIo",
+            "BBIsCgR0eXBlGAIgAigOMh4ubGl2ZWtpdC5wcm90by5BdWRpb1N0cmVhbVR5",
+            "cGUSMAoMdHJhY2tfc291cmNlGAMgASgOMhoubGl2ZWtpdC5wcm90by5UcmFj",
+            "a1NvdXJjZRITCgtzYW1wbGVfcmF0ZRgFIAEoDRIUCgxudW1fY2hhbm5lbHMY",
+            "BiABKA0SHgoWYXVkaW9fZmlsdGVyX21vZHVsZV9pZBgHIAEoCRIcChRhdWRp",
+            "b19maWx0ZXJfb3B0aW9ucxgIIAEoCRIVCg1mcmFtZV9zaXplX21zGAkgASgN",
+            "EhkKEXF1ZXVlX3NpemVfZnJhbWVzGAogASgNIlUKIkF1ZGlvU3RyZWFtRnJv",
+            "bVBhcnRpY2lwYW50UmVzcG9uc2USLwoGc3RyZWFtGAEgAigLMh8ubGl2ZWtp",
+            "dC5wcm90by5Pd25lZEF1ZGlvU3RyZWFtItoBChVOZXdBdWRpb1NvdXJjZVJl",
+            "cXVlc3QSLAoEdHlwZRgBIAIoDjIeLmxpdmVraXQucHJvdG8uQXVkaW9Tb3Vy",
+            "Y2VUeXBlEjIKB29wdGlvbnMYAiABKAsyIS5saXZla2l0LnByb3RvLkF1ZGlv",
+            "U291cmNlT3B0aW9ucxITCgtzYW1wbGVfcmF0ZRgDIAEoDRIUCgxudW1fY2hh",
+            "bm5lbHMYBCABKA0SFQoNcXVldWVfc2l6ZV9tcxgFIAEoDRIdChVwbGF0Zm9y",
+            "bV9hdWRpb19oYW5kbGUYBiABKAQiSQoWTmV3QXVkaW9Tb3VyY2VSZXNwb25z",
+            "ZRIvCgZzb3VyY2UYASACKAsyHy5saXZla2l0LnByb3RvLk93bmVkQXVkaW9T",
+            "b3VyY2UigAEKGENhcHR1cmVBdWRpb0ZyYW1lUmVxdWVzdBIVCg1zb3VyY2Vf",
+            "aGFuZGxlGAEgAigEEjMKBmJ1ZmZlchgCIAIoCzIjLmxpdmVraXQucHJvdG8u",
+            "QXVkaW9GcmFtZUJ1ZmZlckluZm8SGAoQcmVxdWVzdF9hc3luY19pZBgDIAEo",
+            "BCItChlDYXB0dXJlQXVkaW9GcmFtZVJlc3BvbnNlEhAKCGFzeW5jX2lkGAEg",
+            "AigEIjwKGUNhcHR1cmVBdWRpb0ZyYW1lQ2FsbGJhY2sSEAoIYXN5bmNfaWQY",
+            "ASACKAQSDQoFZXJyb3IYAiABKAkiMAoXQ2xlYXJBdWRpb0J1ZmZlclJlcXVl",
+            "c3QSFQoNc291cmNlX2hhbmRsZRgBIAIoBCIaChhDbGVhckF1ZGlvQnVmZmVy",
+            "UmVzcG9uc2UiGgoYTmV3QXVkaW9SZXNhbXBsZXJSZXF1ZXN0IlIKGU5ld0F1",
+            "ZGlvUmVzYW1wbGVyUmVzcG9uc2USNQoJcmVzYW1wbGVyGAEgAigLMiIubGl2",
+            "ZWtpdC5wcm90by5Pd25lZEF1ZGlvUmVzYW1wbGVyIpMBChdSZW1peEFuZFJl",
+            "c2FtcGxlUmVxdWVzdBIYChByZXNhbXBsZXJfaGFuZGxlGAEgAigEEjMKBmJ1",
+            "ZmZlchgCIAIoCzIjLmxpdmVraXQucHJvdG8uQXVkaW9GcmFtZUJ1ZmZlcklu",
+            "Zm8SFAoMbnVtX2NoYW5uZWxzGAMgAigNEhMKC3NhbXBsZV9yYXRlGAQgAigN",
+            "IlAKGFJlbWl4QW5kUmVzYW1wbGVSZXNwb25zZRI0CgZidWZmZXIYASACKAsy",
+            "JC5saXZla2l0LnByb3RvLk93bmVkQXVkaW9GcmFtZUJ1ZmZlciKVAQoNTmV3",
+            "QXBtUmVxdWVzdBIeChZlY2hvX2NhbmNlbGxlcl9lbmFibGVkGAEgAigIEh8K",
+            "F2dhaW5fY29udHJvbGxlcl9lbmFibGVkGAIgAigIEiAKGGhpZ2hfcGFzc19m",
+            "aWx0ZXJfZW5hYmxlZBgDIAIoCBIhChlub2lzZV9zdXBwcmVzc2lvbl9lbmFi",
+            "bGVkGAQgAigIIjYKDk5ld0FwbVJlc3BvbnNlEiQKA2FwbRgBIAIoCzIXLmxp",
+            "dmVraXQucHJvdG8uT3duZWRBcG0ieAoXQXBtUHJvY2Vzc1N0cmVhbVJlcXVl",
+            "c3QSEgoKYXBtX2hhbmRsZRgBIAIoBBIQCghkYXRhX3B0chgCIAIoBBIMCgRz",
+            "aXplGAMgAigNEhMKC3NhbXBsZV9yYXRlGAQgAigNEhQKDG51bV9jaGFubmVs",
+            "cxgFIAIoDSIpChhBcG1Qcm9jZXNzU3RyZWFtUmVzcG9uc2USDQoFZXJyb3IY",
+            "ASABKAkifwoeQXBtUHJvY2Vzc1JldmVyc2VTdHJlYW1SZXF1ZXN0EhIKCmFw",
+            "bV9oYW5kbGUYASACKAQSEAoIZGF0YV9wdHIYAiACKAQSDAoEc2l6ZRgDIAIo",
+            "DRITCgtzYW1wbGVfcmF0ZRgEIAIoDRIUCgxudW1fY2hhbm5lbHMYBSACKA0i",
+            "MAofQXBtUHJvY2Vzc1JldmVyc2VTdHJlYW1SZXNwb25zZRINCgVlcnJvchgB",
+            "IAEoCSJAChhBcG1TZXRTdHJlYW1EZWxheVJlcXVlc3QSEgoKYXBtX2hhbmRs",
+            "ZRgBIAIoBBIQCghkZWxheV9tcxgCIAIoBSIqChlBcG1TZXRTdHJlYW1EZWxh",
+            "eVJlc3BvbnNlEg0KBWVycm9yGAEgASgJIpwCChZOZXdTb3hSZXNhbXBsZXJS",
+            "ZXF1ZXN0EhIKCmlucHV0X3JhdGUYASACKAESEwoLb3V0cHV0X3JhdGUYAiAC",
+            "KAESFAoMbnVtX2NoYW5uZWxzGAMgAigNEjwKD2lucHV0X2RhdGFfdHlwZRgE",
+            "IAIoDjIjLmxpdmVraXQucHJvdG8uU294UmVzYW1wbGVyRGF0YVR5cGUSPQoQ",
+            "b3V0cHV0X2RhdGFfdHlwZRgFIAIoDjIjLmxpdmVraXQucHJvdG8uU294UmVz",
+            "YW1wbGVyRGF0YVR5cGUSNwoOcXVhbGl0eV9yZWNpcGUYBiACKA4yHy5saXZl",
+            "a2l0LnByb3RvLlNveFF1YWxpdHlSZWNpcGUSDQoFZmxhZ3MYByABKA0ibAoX",
+            "TmV3U294UmVzYW1wbGVyUmVzcG9uc2USNQoJcmVzYW1wbGVyGAEgASgLMiAu",
+            "bGl2ZWtpdC5wcm90by5Pd25lZFNveFJlc2FtcGxlckgAEg8KBWVycm9yGAIg",
+            "ASgJSABCCQoHbWVzc2FnZSJTChdQdXNoU294UmVzYW1wbGVyUmVxdWVzdBIY",
+            "ChByZXNhbXBsZXJfaGFuZGxlGAEgAigEEhAKCGRhdGFfcHRyGAIgAigEEgwK",
+            "BHNpemUYAyACKA0iSwoYUHVzaFNveFJlc2FtcGxlclJlc3BvbnNlEhIKCm91",
+            "dHB1dF9wdHIYASACKAQSDAoEc2l6ZRgCIAIoDRINCgVlcnJvchgDIAEoCSI0",
+            "ChhGbHVzaFNveFJlc2FtcGxlclJlcXVlc3QSGAoQcmVzYW1wbGVyX2hhbmRs",
+            "ZRgBIAIoBCJMChlGbHVzaFNveFJlc2FtcGxlclJlc3BvbnNlEhIKCm91dHB1",
+            "dF9wdHIYASACKAQSDAoEc2l6ZRgCIAIoDRINCgVlcnJvchgDIAEoCSJwChRB",
+            "dWRpb0ZyYW1lQnVmZmVySW5mbxIQCghkYXRhX3B0chgBIAIoBBIUCgxudW1f",
+            "Y2hhbm5lbHMYAiACKA0SEwoLc2FtcGxlX3JhdGUYAyACKA0SGwoTc2FtcGxl",
+            "c19wZXJfY2hhbm5lbBgEIAIoDSJ5ChVPd25lZEF1ZGlvRnJhbWVCdWZmZXIS",
+            "LQoGaGFuZGxlGAEgAigLMh0ubGl2ZWtpdC5wcm90by5GZmlPd25lZEhhbmRs",
+            "ZRIxCgRpbmZvGAIgAigLMiMubGl2ZWtpdC5wcm90by5BdWRpb0ZyYW1lQnVm",
+            "ZmVySW5mbyI/Cg9BdWRpb1N0cmVhbUluZm8SLAoEdHlwZRgBIAIoDjIeLmxp",
+            "dmVraXQucHJvdG8uQXVkaW9TdHJlYW1UeXBlIm8KEE93bmVkQXVkaW9TdHJl",
+            "YW0SLQoGaGFuZGxlGAEgAigLMh0ubGl2ZWtpdC5wcm90by5GZmlPd25lZEhh",
+            "bmRsZRIsCgRpbmZvGAIgAigLMh4ubGl2ZWtpdC5wcm90by5BdWRpb1N0cmVh",
+            "bUluZm8inwEKEEF1ZGlvU3RyZWFtRXZlbnQSFQoNc3RyZWFtX2hhbmRsZRgB",
+            "IAIoBBI7Cg5mcmFtZV9yZWNlaXZlZBgCIAEoCzIhLmxpdmVraXQucHJvdG8u",
+            "QXVkaW9GcmFtZVJlY2VpdmVkSAASLAoDZW9zGAMgASgLMh0ubGl2ZWtpdC5w",
+            "cm90by5BdWRpb1N0cmVhbUVPU0gAQgkKB21lc3NhZ2UiSQoSQXVkaW9GcmFt",
+            "ZVJlY2VpdmVkEjMKBWZyYW1lGAEgAigLMiQubGl2ZWtpdC5wcm90by5Pd25l",
+            "ZEF1ZGlvRnJhbWVCdWZmZXIiEAoOQXVkaW9TdHJlYW1FT1MifgoSQXVkaW9T",
+            "b3VyY2VPcHRpb25zEhkKEWVjaG9fY2FuY2VsbGF0aW9uGAEgAigIEhkKEW5v",
+            "aXNlX3N1cHByZXNzaW9uGAIgAigIEhkKEWF1dG9fZ2Fpbl9jb250cm9sGAMg",
+            "AigIEhcKD3ByZWZlcl9oYXJkd2FyZRgEIAEoCCI/Cg9BdWRpb1NvdXJjZUlu",
+            "Zm8SLAoEdHlwZRgCIAIoDjIeLmxpdmVraXQucHJvdG8uQXVkaW9Tb3VyY2VU",
+            "eXBlIm8KEE93bmVkQXVkaW9Tb3VyY2USLQoGaGFuZGxlGAEgAigLMh0ubGl2",
+            "ZWtpdC5wcm90by5GZmlPd25lZEhhbmRsZRIsCgRpbmZvGAIgAigLMh4ubGl2",
+            "ZWtpdC5wcm90by5BdWRpb1NvdXJjZUluZm8iFAoSQXVkaW9SZXNhbXBsZXJJ",
+            "bmZvInUKE093bmVkQXVkaW9SZXNhbXBsZXISLQoGaGFuZGxlGAEgAigLMh0u",
+            "bGl2ZWtpdC5wcm90by5GZmlPd25lZEhhbmRsZRIvCgRpbmZvGAIgAigLMiEu",
+            "bGl2ZWtpdC5wcm90by5BdWRpb1Jlc2FtcGxlckluZm8iOQoIT3duZWRBcG0S",
+            "LQoGaGFuZGxlGAEgAigLMh0ubGl2ZWtpdC5wcm90by5GZmlPd25lZEhhbmRs",
+            "ZSISChBTb3hSZXNhbXBsZXJJbmZvInEKEU93bmVkU294UmVzYW1wbGVyEi0K",
+            "BmhhbmRsZRgBIAIoCzIdLmxpdmVraXQucHJvdG8uRmZpT3duZWRIYW5kbGUS",
+            "LQoEaW5mbxgCIAIoCzIfLmxpdmVraXQucHJvdG8uU294UmVzYW1wbGVySW5m",
+            "byJcChxMb2FkQXVkaW9GaWx0ZXJQbHVnaW5SZXF1ZXN0EhMKC3BsdWdpbl9w",
+            "YXRoGAEgAigJEhQKDGRlcGVuZGVuY2llcxgCIAMoCRIRCgltb2R1bGVfaWQY",
+            "AyACKAkiLgodTG9hZEF1ZGlvRmlsdGVyUGx1Z2luUmVzcG9uc2USDQoFZXJy",
+            "b3IYASABKAkiPAoPQXVkaW9EZXZpY2VJbmZvEg0KBWluZGV4GAEgAigNEgwK",
+            "BG5hbWUYAiACKAkSDAoEZ3VpZBgDIAEoCSJRChFQbGF0Zm9ybUF1ZGlvSW5m",
+            "bxIeChZyZWNvcmRpbmdfZGV2aWNlX2NvdW50GAEgAigFEhwKFHBsYXlvdXRf",
+            "ZGV2aWNlX2NvdW50GAIgAigFInMKEk93bmVkUGxhdGZvcm1BdWRpbxItCgZo",
+            "YW5kbGUYASACKAsyHS5saXZla2l0LnByb3RvLkZmaU93bmVkSGFuZGxlEi4K",
+            "BGluZm8YAiACKAsyIC5saXZla2l0LnByb3RvLlBsYXRmb3JtQXVkaW9JbmZv",
+            "IhkKF05ld1BsYXRmb3JtQXVkaW9SZXF1ZXN0InMKGE5ld1BsYXRmb3JtQXVk",
+            "aW9SZXNwb25zZRI7Cg5wbGF0Zm9ybV9hdWRpbxgBIAEoCzIhLmxpdmVraXQu",
+            "cHJvdG8uT3duZWRQbGF0Zm9ybUF1ZGlvSAASDwoFZXJyb3IYAiABKAlIAEIJ",
+            "CgdtZXNzYWdlIjcKFkdldEF1ZGlvRGV2aWNlc1JlcXVlc3QSHQoVcGxhdGZv",
+            "cm1fYXVkaW9faGFuZGxlGAEgAigEIpwBChdHZXRBdWRpb0RldmljZXNSZXNw",
+            "b25zZRI3Cg9wbGF5b3V0X2RldmljZXMYASADKAsyHi5saXZla2l0LnByb3Rv",
+            "LkF1ZGlvRGV2aWNlSW5mbxI5ChFyZWNvcmRpbmdfZGV2aWNlcxgCIAMoCzIe",
+            "LmxpdmVraXQucHJvdG8uQXVkaW9EZXZpY2VJbmZvEg0KBWVycm9yGAMgASgJ",
+            "Ik0KGVNldFJlY29yZGluZ0RldmljZVJlcXVlc3QSHQoVcGxhdGZvcm1fYXVk",
+            "aW9faGFuZGxlGAEgAigEEhEKCWRldmljZV9pZBgCIAIoCSIrChpTZXRSZWNv",
+            "cmRpbmdEZXZpY2VSZXNwb25zZRINCgVlcnJvchgBIAEoCSJLChdTZXRQbGF5",
+            "b3V0RGV2aWNlUmVxdWVzdBIdChVwbGF0Zm9ybV9hdWRpb19oYW5kbGUYASAC",
+            "KAQSEQoJZGV2aWNlX2lkGAIgAigJIikKGFNldFBsYXlvdXREZXZpY2VSZXNw",
+            "b25zZRINCgVlcnJvchgBIAEoCSI2ChVTdGFydFJlY29yZGluZ1JlcXVlc3QS",
+            "HQoVcGxhdGZvcm1fYXVkaW9faGFuZGxlGAEgAigEIicKFlN0YXJ0UmVjb3Jk",
+            "aW5nUmVzcG9uc2USDQoFZXJyb3IYASABKAkiNQoUU3RvcFJlY29yZGluZ1Jl",
+            "cXVlc3QSHQoVcGxhdGZvcm1fYXVkaW9faGFuZGxlGAEgAigEIiYKFVN0b3BS",
+            "ZWNvcmRpbmdSZXNwb25zZRINCgVlcnJvchgBIAEoCSpKChRTb3hSZXNhbXBs",
+            "ZXJEYXRhVHlwZRIYChRTT1hSX0RBVEFUWVBFX0lOVDE2SRAAEhgKFFNPWFJf",
+            "REFUQVRZUEVfSU5UMTZTEAEqiwEKEFNveFF1YWxpdHlSZWNpcGUSFgoSU09Y",
+            "Ul9RVUFMSVRZX1FVSUNLEAASFAoQU09YUl9RVUFMSVRZX0xPVxABEhcKE1NP",
+            "WFJfUVVBTElUWV9NRURJVU0QAhIVChFTT1hSX1FVQUxJVFlfSElHSBADEhkK",
+            "FVNPWFJfUVVBTElUWV9WRVJZSElHSBAEKpcBCgtTb3hGbGFnQml0cxIWChJT",
+            "T1hSX1JPTExPRkZfU01BTEwQABIXChNTT1hSX1JPTExPRkZfTUVESVVNEAES",
+            "FQoRU09YUl9ST0xMT0ZGX05PTkUQAhIYChRTT1hSX0hJR0hfUFJFQ19DTE9D",
+            "SxADEhkKFVNPWFJfRE9VQkxFX1BSRUNJU0lPThAEEgsKB1NPWFJfVlIQBSpB",
+            "Cg9BdWRpb1N0cmVhbVR5cGUSFwoTQVVESU9fU1RSRUFNX05BVElWRRAAEhUK",
+            "EUFVRElPX1NUUkVBTV9IVE1MEAEqRQoPQXVkaW9Tb3VyY2VUeXBlEhcKE0FV",
+            "RElPX1NPVVJDRV9OQVRJVkUQABIZChVBVURJT19TT1VSQ0VfUExBVEZPUk0Q",
+            "AUIQqgINTGl2ZUtpdC5Qcm90bw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::LiveKit.Proto.HandleReflection.Descriptor, global::LiveKit.Proto.TrackReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.SoxResamplerDataType), typeof(global::LiveKit.Proto.SoxQualityRecipe), typeof(global::LiveKit.Proto.SoxFlagBits), typeof(global::LiveKit.Proto.AudioStreamType), typeof(global::LiveKit.Proto.AudioSourceType), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NewAudioStreamRequest), global::LiveKit.Proto.NewAudioStreamRequest.Parser, new[]{ "TrackHandle", "Type", "SampleRate", "NumChannels", "AudioFilterModuleId", "AudioFilterOptions" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NewAudioStreamRequest), global::LiveKit.Proto.NewAudioStreamRequest.Parser, new[]{ "TrackHandle", "Type", "SampleRate", "NumChannels", "AudioFilterModuleId", "AudioFilterOptions", "FrameSizeMs", "QueueSizeFrames" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NewAudioStreamResponse), global::LiveKit.Proto.NewAudioStreamResponse.Parser, new[]{ "Stream" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AudioStreamFromParticipantRequest), global::LiveKit.Proto.AudioStreamFromParticipantRequest.Parser, new[]{ "ParticipantHandle", "Type", "TrackSource", "SampleRate", "NumChannels", "AudioFilterModuleId", "AudioFilterOptions" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AudioStreamFromParticipantRequest), global::LiveKit.Proto.AudioStreamFromParticipantRequest.Parser, new[]{ "ParticipantHandle", "Type", "TrackSource", "SampleRate", "NumChannels", "AudioFilterModuleId", "AudioFilterOptions", "FrameSizeMs", "QueueSizeFrames" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AudioStreamFromParticipantResponse), global::LiveKit.Proto.AudioStreamFromParticipantResponse.Parser, new[]{ "Stream" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NewAudioSourceRequest), global::LiveKit.Proto.NewAudioSourceRequest.Parser, new[]{ "Type", "Options", "SampleRate", "NumChannels", "QueueSizeMs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NewAudioSourceRequest), global::LiveKit.Proto.NewAudioSourceRequest.Parser, new[]{ "Type", "Options", "SampleRate", "NumChannels", "QueueSizeMs", "PlatformAudioHandle" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NewAudioSourceResponse), global::LiveKit.Proto.NewAudioSourceResponse.Parser, new[]{ "Source" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.CaptureAudioFrameRequest), global::LiveKit.Proto.CaptureAudioFrameRequest.Parser, new[]{ "SourceHandle", "Buffer" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.CaptureAudioFrameRequest), global::LiveKit.Proto.CaptureAudioFrameRequest.Parser, new[]{ "SourceHandle", "Buffer", "RequestAsyncId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.CaptureAudioFrameResponse), global::LiveKit.Proto.CaptureAudioFrameResponse.Parser, new[]{ "AsyncId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.CaptureAudioFrameCallback), global::LiveKit.Proto.CaptureAudioFrameCallback.Parser, new[]{ "AsyncId", "Error" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.ClearAudioBufferRequest), global::LiveKit.Proto.ClearAudioBufferRequest.Parser, new[]{ "SourceHandle" }, null, null, null, null),
@@ -172,7 +200,7 @@ namespace LiveKit.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AudioStreamEvent), global::LiveKit.Proto.AudioStreamEvent.Parser, new[]{ "StreamHandle", "FrameReceived", "Eos" }, new[]{ "Message" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AudioFrameReceived), global::LiveKit.Proto.AudioFrameReceived.Parser, new[]{ "Frame" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AudioStreamEOS), global::LiveKit.Proto.AudioStreamEOS.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AudioSourceOptions), global::LiveKit.Proto.AudioSourceOptions.Parser, new[]{ "EchoCancellation", "NoiseSuppression", "AutoGainControl" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AudioSourceOptions), global::LiveKit.Proto.AudioSourceOptions.Parser, new[]{ "EchoCancellation", "NoiseSuppression", "AutoGainControl", "PreferHardware" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AudioSourceInfo), global::LiveKit.Proto.AudioSourceInfo.Parser, new[]{ "Type" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.OwnedAudioSource), global::LiveKit.Proto.OwnedAudioSource.Parser, new[]{ "Handle", "Info" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AudioResamplerInfo), global::LiveKit.Proto.AudioResamplerInfo.Parser, null, null, null, null, null),
@@ -181,7 +209,22 @@ namespace LiveKit.Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SoxResamplerInfo), global::LiveKit.Proto.SoxResamplerInfo.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.OwnedSoxResampler), global::LiveKit.Proto.OwnedSoxResampler.Parser, new[]{ "Handle", "Info" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.LoadAudioFilterPluginRequest), global::LiveKit.Proto.LoadAudioFilterPluginRequest.Parser, new[]{ "PluginPath", "Dependencies", "ModuleId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.LoadAudioFilterPluginResponse), global::LiveKit.Proto.LoadAudioFilterPluginResponse.Parser, new[]{ "Error" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.LoadAudioFilterPluginResponse), global::LiveKit.Proto.LoadAudioFilterPluginResponse.Parser, new[]{ "Error" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.AudioDeviceInfo), global::LiveKit.Proto.AudioDeviceInfo.Parser, new[]{ "Index", "Name", "Guid" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.PlatformAudioInfo), global::LiveKit.Proto.PlatformAudioInfo.Parser, new[]{ "RecordingDeviceCount", "PlayoutDeviceCount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.OwnedPlatformAudio), global::LiveKit.Proto.OwnedPlatformAudio.Parser, new[]{ "Handle", "Info" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NewPlatformAudioRequest), global::LiveKit.Proto.NewPlatformAudioRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.NewPlatformAudioResponse), global::LiveKit.Proto.NewPlatformAudioResponse.Parser, new[]{ "PlatformAudio", "Error" }, new[]{ "Message" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.GetAudioDevicesRequest), global::LiveKit.Proto.GetAudioDevicesRequest.Parser, new[]{ "PlatformAudioHandle" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.GetAudioDevicesResponse), global::LiveKit.Proto.GetAudioDevicesResponse.Parser, new[]{ "PlayoutDevices", "RecordingDevices", "Error" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SetRecordingDeviceRequest), global::LiveKit.Proto.SetRecordingDeviceRequest.Parser, new[]{ "PlatformAudioHandle", "DeviceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SetRecordingDeviceResponse), global::LiveKit.Proto.SetRecordingDeviceResponse.Parser, new[]{ "Error" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SetPlayoutDeviceRequest), global::LiveKit.Proto.SetPlayoutDeviceRequest.Parser, new[]{ "PlatformAudioHandle", "DeviceId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.SetPlayoutDeviceResponse), global::LiveKit.Proto.SetPlayoutDeviceResponse.Parser, new[]{ "Error" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.StartRecordingRequest), global::LiveKit.Proto.StartRecordingRequest.Parser, new[]{ "PlatformAudioHandle" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.StartRecordingResponse), global::LiveKit.Proto.StartRecordingResponse.Parser, new[]{ "Error" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.StopRecordingRequest), global::LiveKit.Proto.StopRecordingRequest.Parser, new[]{ "PlatformAudioHandle" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.StopRecordingResponse), global::LiveKit.Proto.StopRecordingResponse.Parser, new[]{ "Error" }, null, null, null, null)
           }));
     }
     #endregion
@@ -237,7 +280,15 @@ namespace LiveKit.Proto {
   }
 
   public enum AudioSourceType {
+    /// <summary>
+    /// Push-based audio source - manually capture frames via CaptureAudioFrameRequest
+    /// </summary>
     [pbr::OriginalName("AUDIO_SOURCE_NATIVE")] AudioSourceNative = 0,
+    /// <summary>
+    /// Platform ADM-based audio source - captures from microphone automatically
+    /// Requires PlatformAudio to be created first to enable ADM recording
+    /// </summary>
+    [pbr::OriginalName("AUDIO_SOURCE_PLATFORM")] AudioSourcePlatform = 1,
   }
 
   #endregion
@@ -290,6 +341,8 @@ namespace LiveKit.Proto {
       numChannels_ = other.numChannels_;
       audioFilterModuleId_ = other.audioFilterModuleId_;
       audioFilterOptions_ = other.audioFilterOptions_;
+      frameSizeMs_ = other.frameSizeMs_;
+      queueSizeFrames_ = other.queueSizeFrames_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -462,6 +515,71 @@ namespace LiveKit.Proto {
       audioFilterOptions_ = null;
     }
 
+    /// <summary>Field number for the "frame_size_ms" field.</summary>
+    public const int FrameSizeMsFieldNumber = 7;
+    private readonly static uint FrameSizeMsDefaultValue = 0;
+
+    private uint frameSizeMs_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint FrameSizeMs {
+      get { if ((_hasBits0 & 16) != 0) { return frameSizeMs_; } else { return FrameSizeMsDefaultValue; } }
+      set {
+        _hasBits0 |= 16;
+        frameSizeMs_ = value;
+      }
+    }
+    /// <summary>Gets whether the "frame_size_ms" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasFrameSizeMs {
+      get { return (_hasBits0 & 16) != 0; }
+    }
+    /// <summary>Clears the value of the "frame_size_ms" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearFrameSizeMs() {
+      _hasBits0 &= ~16;
+    }
+
+    /// <summary>Field number for the "queue_size_frames" field.</summary>
+    public const int QueueSizeFramesFieldNumber = 8;
+    private readonly static uint QueueSizeFramesDefaultValue = 0;
+
+    private uint queueSizeFrames_;
+    /// <summary>
+    /// Maximum number of queued WebRTC sink frames. Each frame is typically 10 ms
+    /// of decoded PCM audio on the receive path. Omit this field to use the
+    /// default bounded queue size of 10 frames. Set it to 0 to request unbounded
+    /// buffering.
+    ///
+    /// If your application consumes both audio and video, keep the queue sizing
+    /// strategy coordinated across both streams. Using a much larger queue, or
+    /// unbounded buffering, for only one of them can increase end-to-end latency
+    /// for that stream and cause audio/video drift.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint QueueSizeFrames {
+      get { if ((_hasBits0 & 32) != 0) { return queueSizeFrames_; } else { return QueueSizeFramesDefaultValue; } }
+      set {
+        _hasBits0 |= 32;
+        queueSizeFrames_ = value;
+      }
+    }
+    /// <summary>Gets whether the "queue_size_frames" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasQueueSizeFrames {
+      get { return (_hasBits0 & 32) != 0; }
+    }
+    /// <summary>Clears the value of the "queue_size_frames" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearQueueSizeFrames() {
+      _hasBits0 &= ~32;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -483,6 +601,8 @@ namespace LiveKit.Proto {
       if (NumChannels != other.NumChannels) return false;
       if (AudioFilterModuleId != other.AudioFilterModuleId) return false;
       if (AudioFilterOptions != other.AudioFilterOptions) return false;
+      if (FrameSizeMs != other.FrameSizeMs) return false;
+      if (QueueSizeFrames != other.QueueSizeFrames) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -496,6 +616,8 @@ namespace LiveKit.Proto {
       if (HasNumChannels) hash ^= NumChannels.GetHashCode();
       if (HasAudioFilterModuleId) hash ^= AudioFilterModuleId.GetHashCode();
       if (HasAudioFilterOptions) hash ^= AudioFilterOptions.GetHashCode();
+      if (HasFrameSizeMs) hash ^= FrameSizeMs.GetHashCode();
+      if (HasQueueSizeFrames) hash ^= QueueSizeFrames.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -538,6 +660,14 @@ namespace LiveKit.Proto {
         output.WriteRawTag(50);
         output.WriteString(AudioFilterOptions);
       }
+      if (HasFrameSizeMs) {
+        output.WriteRawTag(56);
+        output.WriteUInt32(FrameSizeMs);
+      }
+      if (HasQueueSizeFrames) {
+        output.WriteRawTag(64);
+        output.WriteUInt32(QueueSizeFrames);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -572,6 +702,14 @@ namespace LiveKit.Proto {
         output.WriteRawTag(50);
         output.WriteString(AudioFilterOptions);
       }
+      if (HasFrameSizeMs) {
+        output.WriteRawTag(56);
+        output.WriteUInt32(FrameSizeMs);
+      }
+      if (HasQueueSizeFrames) {
+        output.WriteRawTag(64);
+        output.WriteUInt32(QueueSizeFrames);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -599,6 +737,12 @@ namespace LiveKit.Proto {
       }
       if (HasAudioFilterOptions) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(AudioFilterOptions);
+      }
+      if (HasFrameSizeMs) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(FrameSizeMs);
+      }
+      if (HasQueueSizeFrames) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(QueueSizeFrames);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -629,6 +773,12 @@ namespace LiveKit.Proto {
       }
       if (other.HasAudioFilterOptions) {
         AudioFilterOptions = other.AudioFilterOptions;
+      }
+      if (other.HasFrameSizeMs) {
+        FrameSizeMs = other.FrameSizeMs;
+      }
+      if (other.HasQueueSizeFrames) {
+        QueueSizeFrames = other.QueueSizeFrames;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -673,6 +823,14 @@ namespace LiveKit.Proto {
             AudioFilterOptions = input.ReadString();
             break;
           }
+          case 56: {
+            FrameSizeMs = input.ReadUInt32();
+            break;
+          }
+          case 64: {
+            QueueSizeFrames = input.ReadUInt32();
+            break;
+          }
         }
       }
     #endif
@@ -714,6 +872,14 @@ namespace LiveKit.Proto {
           }
           case 50: {
             AudioFilterOptions = input.ReadString();
+            break;
+          }
+          case 56: {
+            FrameSizeMs = input.ReadUInt32();
+            break;
+          }
+          case 64: {
+            QueueSizeFrames = input.ReadUInt32();
             break;
           }
         }
@@ -974,6 +1140,8 @@ namespace LiveKit.Proto {
       numChannels_ = other.numChannels_;
       audioFilterModuleId_ = other.audioFilterModuleId_;
       audioFilterOptions_ = other.audioFilterOptions_;
+      frameSizeMs_ = other.frameSizeMs_;
+      queueSizeFrames_ = other.queueSizeFrames_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1170,6 +1338,71 @@ namespace LiveKit.Proto {
       audioFilterOptions_ = null;
     }
 
+    /// <summary>Field number for the "frame_size_ms" field.</summary>
+    public const int FrameSizeMsFieldNumber = 9;
+    private readonly static uint FrameSizeMsDefaultValue = 0;
+
+    private uint frameSizeMs_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint FrameSizeMs {
+      get { if ((_hasBits0 & 32) != 0) { return frameSizeMs_; } else { return FrameSizeMsDefaultValue; } }
+      set {
+        _hasBits0 |= 32;
+        frameSizeMs_ = value;
+      }
+    }
+    /// <summary>Gets whether the "frame_size_ms" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasFrameSizeMs {
+      get { return (_hasBits0 & 32) != 0; }
+    }
+    /// <summary>Clears the value of the "frame_size_ms" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearFrameSizeMs() {
+      _hasBits0 &= ~32;
+    }
+
+    /// <summary>Field number for the "queue_size_frames" field.</summary>
+    public const int QueueSizeFramesFieldNumber = 10;
+    private readonly static uint QueueSizeFramesDefaultValue = 0;
+
+    private uint queueSizeFrames_;
+    /// <summary>
+    /// Maximum number of queued WebRTC sink frames. Each frame is typically 10 ms
+    /// of decoded PCM audio on the receive path. Omit this field to use the
+    /// default bounded queue size of 10 frames. Set it to 0 to request unbounded
+    /// buffering.
+    ///
+    /// If your application consumes both audio and video, keep the queue sizing
+    /// strategy coordinated across both streams. Using a much larger queue, or
+    /// unbounded buffering, for only one of them can increase end-to-end latency
+    /// for that stream and cause audio/video drift.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint QueueSizeFrames {
+      get { if ((_hasBits0 & 64) != 0) { return queueSizeFrames_; } else { return QueueSizeFramesDefaultValue; } }
+      set {
+        _hasBits0 |= 64;
+        queueSizeFrames_ = value;
+      }
+    }
+    /// <summary>Gets whether the "queue_size_frames" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasQueueSizeFrames {
+      get { return (_hasBits0 & 64) != 0; }
+    }
+    /// <summary>Clears the value of the "queue_size_frames" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearQueueSizeFrames() {
+      _hasBits0 &= ~64;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1192,6 +1425,8 @@ namespace LiveKit.Proto {
       if (NumChannels != other.NumChannels) return false;
       if (AudioFilterModuleId != other.AudioFilterModuleId) return false;
       if (AudioFilterOptions != other.AudioFilterOptions) return false;
+      if (FrameSizeMs != other.FrameSizeMs) return false;
+      if (QueueSizeFrames != other.QueueSizeFrames) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1206,6 +1441,8 @@ namespace LiveKit.Proto {
       if (HasNumChannels) hash ^= NumChannels.GetHashCode();
       if (HasAudioFilterModuleId) hash ^= AudioFilterModuleId.GetHashCode();
       if (HasAudioFilterOptions) hash ^= AudioFilterOptions.GetHashCode();
+      if (HasFrameSizeMs) hash ^= FrameSizeMs.GetHashCode();
+      if (HasQueueSizeFrames) hash ^= QueueSizeFrames.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1252,6 +1489,14 @@ namespace LiveKit.Proto {
         output.WriteRawTag(66);
         output.WriteString(AudioFilterOptions);
       }
+      if (HasFrameSizeMs) {
+        output.WriteRawTag(72);
+        output.WriteUInt32(FrameSizeMs);
+      }
+      if (HasQueueSizeFrames) {
+        output.WriteRawTag(80);
+        output.WriteUInt32(QueueSizeFrames);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1290,6 +1535,14 @@ namespace LiveKit.Proto {
         output.WriteRawTag(66);
         output.WriteString(AudioFilterOptions);
       }
+      if (HasFrameSizeMs) {
+        output.WriteRawTag(72);
+        output.WriteUInt32(FrameSizeMs);
+      }
+      if (HasQueueSizeFrames) {
+        output.WriteRawTag(80);
+        output.WriteUInt32(QueueSizeFrames);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1320,6 +1573,12 @@ namespace LiveKit.Proto {
       }
       if (HasAudioFilterOptions) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(AudioFilterOptions);
+      }
+      if (HasFrameSizeMs) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(FrameSizeMs);
+      }
+      if (HasQueueSizeFrames) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(QueueSizeFrames);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1353,6 +1612,12 @@ namespace LiveKit.Proto {
       }
       if (other.HasAudioFilterOptions) {
         AudioFilterOptions = other.AudioFilterOptions;
+      }
+      if (other.HasFrameSizeMs) {
+        FrameSizeMs = other.FrameSizeMs;
+      }
+      if (other.HasQueueSizeFrames) {
+        QueueSizeFrames = other.QueueSizeFrames;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1401,6 +1666,14 @@ namespace LiveKit.Proto {
             AudioFilterOptions = input.ReadString();
             break;
           }
+          case 72: {
+            FrameSizeMs = input.ReadUInt32();
+            break;
+          }
+          case 80: {
+            QueueSizeFrames = input.ReadUInt32();
+            break;
+          }
         }
       }
     #endif
@@ -1446,6 +1719,14 @@ namespace LiveKit.Proto {
           }
           case 66: {
             AudioFilterOptions = input.ReadString();
+            break;
+          }
+          case 72: {
+            FrameSizeMs = input.ReadUInt32();
+            break;
+          }
+          case 80: {
+            QueueSizeFrames = input.ReadUInt32();
             break;
           }
         }
@@ -1707,6 +1988,7 @@ namespace LiveKit.Proto {
       sampleRate_ = other.sampleRate_;
       numChannels_ = other.numChannels_;
       queueSizeMs_ = other.queueSizeMs_;
+      platformAudioHandle_ = other.platformAudioHandle_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1760,6 +2042,11 @@ namespace LiveKit.Proto {
     private readonly static uint SampleRateDefaultValue = 0;
 
     private uint sampleRate_;
+    /// <summary>
+    /// Sample rate in Hz. Optional - defaults to 48000 if not specified.
+    /// For AudioSourcePlatform: ignored, ADM uses hardware native sample rate.
+    /// For AudioSourceNative with queue_size_ms=0 (fast path): ignored, frame values used directly.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public uint SampleRate {
@@ -1787,6 +2074,11 @@ namespace LiveKit.Proto {
     private readonly static uint NumChannelsDefaultValue = 0;
 
     private uint numChannels_;
+    /// <summary>
+    /// Number of audio channels. Optional - defaults to 1 (mono) if not specified.
+    /// For AudioSourcePlatform: ignored, ADM uses hardware native channels.
+    /// For AudioSourceNative with queue_size_ms=0 (fast path): ignored, frame values used directly.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public uint NumChannels {
@@ -1836,6 +2128,37 @@ namespace LiveKit.Proto {
       _hasBits0 &= ~8;
     }
 
+    /// <summary>Field number for the "platform_audio_handle" field.</summary>
+    public const int PlatformAudioHandleFieldNumber = 6;
+    private readonly static ulong PlatformAudioHandleDefaultValue = 0UL;
+
+    private ulong platformAudioHandle_;
+    /// <summary>
+    /// For AudioSourcePlatform: the PlatformAudio handle to configure audio processing on.
+    /// If provided with options, audio processing will be configured on the PlatformAudio.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong PlatformAudioHandle {
+      get { if ((_hasBits0 & 16) != 0) { return platformAudioHandle_; } else { return PlatformAudioHandleDefaultValue; } }
+      set {
+        _hasBits0 |= 16;
+        platformAudioHandle_ = value;
+      }
+    }
+    /// <summary>Gets whether the "platform_audio_handle" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPlatformAudioHandle {
+      get { return (_hasBits0 & 16) != 0; }
+    }
+    /// <summary>Clears the value of the "platform_audio_handle" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPlatformAudioHandle() {
+      _hasBits0 &= ~16;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1856,6 +2179,7 @@ namespace LiveKit.Proto {
       if (SampleRate != other.SampleRate) return false;
       if (NumChannels != other.NumChannels) return false;
       if (QueueSizeMs != other.QueueSizeMs) return false;
+      if (PlatformAudioHandle != other.PlatformAudioHandle) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1868,6 +2192,7 @@ namespace LiveKit.Proto {
       if (HasSampleRate) hash ^= SampleRate.GetHashCode();
       if (HasNumChannels) hash ^= NumChannels.GetHashCode();
       if (HasQueueSizeMs) hash ^= QueueSizeMs.GetHashCode();
+      if (HasPlatformAudioHandle) hash ^= PlatformAudioHandle.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1906,6 +2231,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(40);
         output.WriteUInt32(QueueSizeMs);
       }
+      if (HasPlatformAudioHandle) {
+        output.WriteRawTag(48);
+        output.WriteUInt64(PlatformAudioHandle);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1936,6 +2265,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(40);
         output.WriteUInt32(QueueSizeMs);
       }
+      if (HasPlatformAudioHandle) {
+        output.WriteRawTag(48);
+        output.WriteUInt64(PlatformAudioHandle);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1960,6 +2293,9 @@ namespace LiveKit.Proto {
       }
       if (HasQueueSizeMs) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(QueueSizeMs);
+      }
+      if (HasPlatformAudioHandle) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(PlatformAudioHandle);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1990,6 +2326,9 @@ namespace LiveKit.Proto {
       }
       if (other.HasQueueSizeMs) {
         QueueSizeMs = other.QueueSizeMs;
+      }
+      if (other.HasPlatformAudioHandle) {
+        PlatformAudioHandle = other.PlatformAudioHandle;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2033,6 +2372,10 @@ namespace LiveKit.Proto {
             QueueSizeMs = input.ReadUInt32();
             break;
           }
+          case 48: {
+            PlatformAudioHandle = input.ReadUInt64();
+            break;
+          }
         }
       }
     #endif
@@ -2073,6 +2416,10 @@ namespace LiveKit.Proto {
           }
           case 40: {
             QueueSizeMs = input.ReadUInt32();
+            break;
+          }
+          case 48: {
+            PlatformAudioHandle = input.ReadUInt64();
             break;
           }
         }
@@ -2290,7 +2637,7 @@ namespace LiveKit.Proto {
   }
 
   /// <summary>
-  /// Push a frame to an AudioSource 
+  /// Push a frame to an AudioSource
   /// The data provided must be available as long as the client receive the callback.
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
@@ -2332,6 +2679,7 @@ namespace LiveKit.Proto {
       _hasBits0 = other._hasBits0;
       sourceHandle_ = other.sourceHandle_;
       buffer_ = other.buffer_ != null ? other.buffer_.Clone() : null;
+      requestAsyncId_ = other.requestAsyncId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2380,6 +2728,33 @@ namespace LiveKit.Proto {
       }
     }
 
+    /// <summary>Field number for the "request_async_id" field.</summary>
+    public const int RequestAsyncIdFieldNumber = 3;
+    private readonly static ulong RequestAsyncIdDefaultValue = 0UL;
+
+    private ulong requestAsyncId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong RequestAsyncId {
+      get { if ((_hasBits0 & 2) != 0) { return requestAsyncId_; } else { return RequestAsyncIdDefaultValue; } }
+      set {
+        _hasBits0 |= 2;
+        requestAsyncId_ = value;
+      }
+    }
+    /// <summary>Gets whether the "request_async_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasRequestAsyncId {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "request_async_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearRequestAsyncId() {
+      _hasBits0 &= ~2;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2397,6 +2772,7 @@ namespace LiveKit.Proto {
       }
       if (SourceHandle != other.SourceHandle) return false;
       if (!object.Equals(Buffer, other.Buffer)) return false;
+      if (RequestAsyncId != other.RequestAsyncId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2406,6 +2782,7 @@ namespace LiveKit.Proto {
       int hash = 1;
       if (HasSourceHandle) hash ^= SourceHandle.GetHashCode();
       if (buffer_ != null) hash ^= Buffer.GetHashCode();
+      if (HasRequestAsyncId) hash ^= RequestAsyncId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2432,6 +2809,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(18);
         output.WriteMessage(Buffer);
       }
+      if (HasRequestAsyncId) {
+        output.WriteRawTag(24);
+        output.WriteUInt64(RequestAsyncId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2450,6 +2831,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(18);
         output.WriteMessage(Buffer);
       }
+      if (HasRequestAsyncId) {
+        output.WriteRawTag(24);
+        output.WriteUInt64(RequestAsyncId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2465,6 +2850,9 @@ namespace LiveKit.Proto {
       }
       if (buffer_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Buffer);
+      }
+      if (HasRequestAsyncId) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(RequestAsyncId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2486,6 +2874,9 @@ namespace LiveKit.Proto {
           Buffer = new global::LiveKit.Proto.AudioFrameBufferInfo();
         }
         Buffer.MergeFrom(other.Buffer);
+      }
+      if (other.HasRequestAsyncId) {
+        RequestAsyncId = other.RequestAsyncId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2517,6 +2908,10 @@ namespace LiveKit.Proto {
             input.ReadMessage(Buffer);
             break;
           }
+          case 24: {
+            RequestAsyncId = input.ReadUInt64();
+            break;
+          }
         }
       }
     #endif
@@ -2545,6 +2940,10 @@ namespace LiveKit.Proto {
               Buffer = new global::LiveKit.Proto.AudioFrameBufferInfo();
             }
             input.ReadMessage(Buffer);
+            break;
+          }
+          case 24: {
+            RequestAsyncId = input.ReadUInt64();
             break;
           }
         }
@@ -10557,6 +10956,7 @@ namespace LiveKit.Proto {
       echoCancellation_ = other.echoCancellation_;
       noiseSuppression_ = other.noiseSuppression_;
       autoGainControl_ = other.autoGainControl_;
+      preferHardware_ = other.preferHardware_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -10647,6 +11047,37 @@ namespace LiveKit.Proto {
       _hasBits0 &= ~4;
     }
 
+    /// <summary>Field number for the "prefer_hardware" field.</summary>
+    public const int PreferHardwareFieldNumber = 4;
+    private readonly static bool PreferHardwareDefaultValue = false;
+
+    private bool preferHardware_;
+    /// <summary>
+    /// Prefer hardware audio processing (e.g., iOS VPIO). Lower latency.
+    /// Only applies to AudioSourcePlatform. Default: true.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool PreferHardware {
+      get { if ((_hasBits0 & 8) != 0) { return preferHardware_; } else { return PreferHardwareDefaultValue; } }
+      set {
+        _hasBits0 |= 8;
+        preferHardware_ = value;
+      }
+    }
+    /// <summary>Gets whether the "prefer_hardware" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPreferHardware {
+      get { return (_hasBits0 & 8) != 0; }
+    }
+    /// <summary>Clears the value of the "prefer_hardware" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPreferHardware() {
+      _hasBits0 &= ~8;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -10665,6 +11096,7 @@ namespace LiveKit.Proto {
       if (EchoCancellation != other.EchoCancellation) return false;
       if (NoiseSuppression != other.NoiseSuppression) return false;
       if (AutoGainControl != other.AutoGainControl) return false;
+      if (PreferHardware != other.PreferHardware) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -10675,6 +11107,7 @@ namespace LiveKit.Proto {
       if (HasEchoCancellation) hash ^= EchoCancellation.GetHashCode();
       if (HasNoiseSuppression) hash ^= NoiseSuppression.GetHashCode();
       if (HasAutoGainControl) hash ^= AutoGainControl.GetHashCode();
+      if (HasPreferHardware) hash ^= PreferHardware.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -10705,6 +11138,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(24);
         output.WriteBool(AutoGainControl);
       }
+      if (HasPreferHardware) {
+        output.WriteRawTag(32);
+        output.WriteBool(PreferHardware);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -10727,6 +11164,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(24);
         output.WriteBool(AutoGainControl);
       }
+      if (HasPreferHardware) {
+        output.WriteRawTag(32);
+        output.WriteBool(PreferHardware);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -10744,6 +11185,9 @@ namespace LiveKit.Proto {
         size += 1 + 1;
       }
       if (HasAutoGainControl) {
+        size += 1 + 1;
+      }
+      if (HasPreferHardware) {
         size += 1 + 1;
       }
       if (_unknownFields != null) {
@@ -10766,6 +11210,9 @@ namespace LiveKit.Proto {
       }
       if (other.HasAutoGainControl) {
         AutoGainControl = other.AutoGainControl;
+      }
+      if (other.HasPreferHardware) {
+        PreferHardware = other.PreferHardware;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -10798,6 +11245,10 @@ namespace LiveKit.Proto {
             AutoGainControl = input.ReadBool();
             break;
           }
+          case 32: {
+            PreferHardware = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -10827,6 +11278,10 @@ namespace LiveKit.Proto {
           }
           case 24: {
             AutoGainControl = input.ReadBool();
+            break;
+          }
+          case 32: {
+            PreferHardware = input.ReadBool();
             break;
           }
         }
@@ -12793,6 +13248,3729 @@ namespace LiveKit.Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public void MergeFrom(LoadAudioFilterPluginResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasError) {
+        Error = other.Error;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Information about an audio device.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class AudioDeviceInfo : pb::IMessage<AudioDeviceInfo>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<AudioDeviceInfo> _parser = new pb::MessageParser<AudioDeviceInfo>(() => new AudioDeviceInfo());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<AudioDeviceInfo> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.AudioFrameReflection.Descriptor.MessageTypes[46]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AudioDeviceInfo() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AudioDeviceInfo(AudioDeviceInfo other) : this() {
+      _hasBits0 = other._hasBits0;
+      index_ = other.index_;
+      name_ = other.name_;
+      guid_ = other.guid_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public AudioDeviceInfo Clone() {
+      return new AudioDeviceInfo(this);
+    }
+
+    /// <summary>Field number for the "index" field.</summary>
+    public const int IndexFieldNumber = 1;
+    private readonly static uint IndexDefaultValue = 0;
+
+    private uint index_;
+    /// <summary>
+    /// Device index (0-based). Note: indices can change when devices are added/removed.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint Index {
+      get { if ((_hasBits0 & 1) != 0) { return index_; } else { return IndexDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        index_ = value;
+      }
+    }
+    /// <summary>Gets whether the "index" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasIndex {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "index" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearIndex() {
+      _hasBits0 &= ~1;
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 2;
+    private readonly static string NameDefaultValue = "";
+
+    private string name_;
+    /// <summary>
+    /// Device name as reported by the operating system.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Name {
+      get { return name_ ?? NameDefaultValue; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "name" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasName {
+      get { return name_ != null; }
+    }
+    /// <summary>Clears the value of the "name" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearName() {
+      name_ = null;
+    }
+
+    /// <summary>Field number for the "guid" field.</summary>
+    public const int GuidFieldNumber = 3;
+    private readonly static string GuidDefaultValue = "";
+
+    private string guid_;
+    /// <summary>
+    /// Platform-specific unique device identifier (GUID).
+    /// This is stable across device additions/removals and should be preferred
+    /// over index for device selection. Format varies by platform:
+    /// - Windows: Device interface path
+    /// - macOS: AudioObjectID as string
+    /// - Linux: ALSA/PulseAudio device identifier
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Guid {
+      get { return guid_ ?? GuidDefaultValue; }
+      set {
+        guid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "guid" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasGuid {
+      get { return guid_ != null; }
+    }
+    /// <summary>Clears the value of the "guid" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearGuid() {
+      guid_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as AudioDeviceInfo);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(AudioDeviceInfo other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Index != other.Index) return false;
+      if (Name != other.Name) return false;
+      if (Guid != other.Guid) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasIndex) hash ^= Index.GetHashCode();
+      if (HasName) hash ^= Name.GetHashCode();
+      if (HasGuid) hash ^= Guid.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasIndex) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(Index);
+      }
+      if (HasName) {
+        output.WriteRawTag(18);
+        output.WriteString(Name);
+      }
+      if (HasGuid) {
+        output.WriteRawTag(26);
+        output.WriteString(Guid);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasIndex) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(Index);
+      }
+      if (HasName) {
+        output.WriteRawTag(18);
+        output.WriteString(Name);
+      }
+      if (HasGuid) {
+        output.WriteRawTag(26);
+        output.WriteString(Guid);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasIndex) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Index);
+      }
+      if (HasName) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (HasGuid) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Guid);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(AudioDeviceInfo other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasIndex) {
+        Index = other.Index;
+      }
+      if (other.HasName) {
+        Name = other.Name;
+      }
+      if (other.HasGuid) {
+        Guid = other.Guid;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Index = input.ReadUInt32();
+            break;
+          }
+          case 18: {
+            Name = input.ReadString();
+            break;
+          }
+          case 26: {
+            Guid = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Index = input.ReadUInt32();
+            break;
+          }
+          case 18: {
+            Name = input.ReadString();
+            break;
+          }
+          case 26: {
+            Guid = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Information about a PlatformAudio instance.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class PlatformAudioInfo : pb::IMessage<PlatformAudioInfo>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<PlatformAudioInfo> _parser = new pb::MessageParser<PlatformAudioInfo>(() => new PlatformAudioInfo());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<PlatformAudioInfo> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.AudioFrameReflection.Descriptor.MessageTypes[47]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public PlatformAudioInfo() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public PlatformAudioInfo(PlatformAudioInfo other) : this() {
+      _hasBits0 = other._hasBits0;
+      recordingDeviceCount_ = other.recordingDeviceCount_;
+      playoutDeviceCount_ = other.playoutDeviceCount_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public PlatformAudioInfo Clone() {
+      return new PlatformAudioInfo(this);
+    }
+
+    /// <summary>Field number for the "recording_device_count" field.</summary>
+    public const int RecordingDeviceCountFieldNumber = 1;
+    private readonly static int RecordingDeviceCountDefaultValue = 0;
+
+    private int recordingDeviceCount_;
+    /// <summary>
+    /// Number of available recording (microphone) devices.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int RecordingDeviceCount {
+      get { if ((_hasBits0 & 1) != 0) { return recordingDeviceCount_; } else { return RecordingDeviceCountDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        recordingDeviceCount_ = value;
+      }
+    }
+    /// <summary>Gets whether the "recording_device_count" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasRecordingDeviceCount {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "recording_device_count" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearRecordingDeviceCount() {
+      _hasBits0 &= ~1;
+    }
+
+    /// <summary>Field number for the "playout_device_count" field.</summary>
+    public const int PlayoutDeviceCountFieldNumber = 2;
+    private readonly static int PlayoutDeviceCountDefaultValue = 0;
+
+    private int playoutDeviceCount_;
+    /// <summary>
+    /// Number of available playout (speaker) devices.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int PlayoutDeviceCount {
+      get { if ((_hasBits0 & 2) != 0) { return playoutDeviceCount_; } else { return PlayoutDeviceCountDefaultValue; } }
+      set {
+        _hasBits0 |= 2;
+        playoutDeviceCount_ = value;
+      }
+    }
+    /// <summary>Gets whether the "playout_device_count" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPlayoutDeviceCount {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "playout_device_count" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPlayoutDeviceCount() {
+      _hasBits0 &= ~2;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as PlatformAudioInfo);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(PlatformAudioInfo other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (RecordingDeviceCount != other.RecordingDeviceCount) return false;
+      if (PlayoutDeviceCount != other.PlayoutDeviceCount) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasRecordingDeviceCount) hash ^= RecordingDeviceCount.GetHashCode();
+      if (HasPlayoutDeviceCount) hash ^= PlayoutDeviceCount.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasRecordingDeviceCount) {
+        output.WriteRawTag(8);
+        output.WriteInt32(RecordingDeviceCount);
+      }
+      if (HasPlayoutDeviceCount) {
+        output.WriteRawTag(16);
+        output.WriteInt32(PlayoutDeviceCount);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasRecordingDeviceCount) {
+        output.WriteRawTag(8);
+        output.WriteInt32(RecordingDeviceCount);
+      }
+      if (HasPlayoutDeviceCount) {
+        output.WriteRawTag(16);
+        output.WriteInt32(PlayoutDeviceCount);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasRecordingDeviceCount) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(RecordingDeviceCount);
+      }
+      if (HasPlayoutDeviceCount) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(PlayoutDeviceCount);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(PlatformAudioInfo other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasRecordingDeviceCount) {
+        RecordingDeviceCount = other.RecordingDeviceCount;
+      }
+      if (other.HasPlayoutDeviceCount) {
+        PlayoutDeviceCount = other.PlayoutDeviceCount;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            RecordingDeviceCount = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            PlayoutDeviceCount = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            RecordingDeviceCount = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            PlayoutDeviceCount = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Owned PlatformAudio handle with info.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class OwnedPlatformAudio : pb::IMessage<OwnedPlatformAudio>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<OwnedPlatformAudio> _parser = new pb::MessageParser<OwnedPlatformAudio>(() => new OwnedPlatformAudio());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<OwnedPlatformAudio> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.AudioFrameReflection.Descriptor.MessageTypes[48]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public OwnedPlatformAudio() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public OwnedPlatformAudio(OwnedPlatformAudio other) : this() {
+      handle_ = other.handle_ != null ? other.handle_.Clone() : null;
+      info_ = other.info_ != null ? other.info_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public OwnedPlatformAudio Clone() {
+      return new OwnedPlatformAudio(this);
+    }
+
+    /// <summary>Field number for the "handle" field.</summary>
+    public const int HandleFieldNumber = 1;
+    private global::LiveKit.Proto.FfiOwnedHandle handle_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.FfiOwnedHandle Handle {
+      get { return handle_; }
+      set {
+        handle_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "info" field.</summary>
+    public const int InfoFieldNumber = 2;
+    private global::LiveKit.Proto.PlatformAudioInfo info_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.PlatformAudioInfo Info {
+      get { return info_; }
+      set {
+        info_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as OwnedPlatformAudio);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(OwnedPlatformAudio other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Handle, other.Handle)) return false;
+      if (!object.Equals(Info, other.Info)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (handle_ != null) hash ^= Handle.GetHashCode();
+      if (info_ != null) hash ^= Info.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (handle_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Handle);
+      }
+      if (info_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Info);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (handle_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Handle);
+      }
+      if (info_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Info);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (handle_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Handle);
+      }
+      if (info_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Info);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(OwnedPlatformAudio other) {
+      if (other == null) {
+        return;
+      }
+      if (other.handle_ != null) {
+        if (handle_ == null) {
+          Handle = new global::LiveKit.Proto.FfiOwnedHandle();
+        }
+        Handle.MergeFrom(other.Handle);
+      }
+      if (other.info_ != null) {
+        if (info_ == null) {
+          Info = new global::LiveKit.Proto.PlatformAudioInfo();
+        }
+        Info.MergeFrom(other.Info);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (handle_ == null) {
+              Handle = new global::LiveKit.Proto.FfiOwnedHandle();
+            }
+            input.ReadMessage(Handle);
+            break;
+          }
+          case 18: {
+            if (info_ == null) {
+              Info = new global::LiveKit.Proto.PlatformAudioInfo();
+            }
+            input.ReadMessage(Info);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (handle_ == null) {
+              Handle = new global::LiveKit.Proto.FfiOwnedHandle();
+            }
+            input.ReadMessage(Handle);
+            break;
+          }
+          case 18: {
+            if (info_ == null) {
+              Info = new global::LiveKit.Proto.PlatformAudioInfo();
+            }
+            input.ReadMessage(Info);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Create a new PlatformAudio instance.
+  ///
+  /// This enables the platform ADM for microphone capture and speaker playout.
+  /// If another PlatformAudio instance exists, this reuses the same underlying ADM.
+  ///
+  /// The returned handle must be kept alive while platform audio is needed.
+  /// When all handles are released, the ADM is automatically disabled.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class NewPlatformAudioRequest : pb::IMessage<NewPlatformAudioRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<NewPlatformAudioRequest> _parser = new pb::MessageParser<NewPlatformAudioRequest>(() => new NewPlatformAudioRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<NewPlatformAudioRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.AudioFrameReflection.Descriptor.MessageTypes[49]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NewPlatformAudioRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NewPlatformAudioRequest(NewPlatformAudioRequest other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NewPlatformAudioRequest Clone() {
+      return new NewPlatformAudioRequest(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as NewPlatformAudioRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(NewPlatformAudioRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(NewPlatformAudioRequest other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class NewPlatformAudioResponse : pb::IMessage<NewPlatformAudioResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<NewPlatformAudioResponse> _parser = new pb::MessageParser<NewPlatformAudioResponse>(() => new NewPlatformAudioResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<NewPlatformAudioResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.AudioFrameReflection.Descriptor.MessageTypes[50]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NewPlatformAudioResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NewPlatformAudioResponse(NewPlatformAudioResponse other) : this() {
+      switch (other.MessageCase) {
+        case MessageOneofCase.PlatformAudio:
+          PlatformAudio = other.PlatformAudio.Clone();
+          break;
+        case MessageOneofCase.Error:
+          Error = other.Error;
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public NewPlatformAudioResponse Clone() {
+      return new NewPlatformAudioResponse(this);
+    }
+
+    /// <summary>Field number for the "platform_audio" field.</summary>
+    public const int PlatformAudioFieldNumber = 1;
+    /// <summary>
+    /// The PlatformAudio handle on success.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::LiveKit.Proto.OwnedPlatformAudio PlatformAudio {
+      get { return messageCase_ == MessageOneofCase.PlatformAudio ? (global::LiveKit.Proto.OwnedPlatformAudio) message_ : null; }
+      set {
+        message_ = value;
+        messageCase_ = value == null ? MessageOneofCase.None : MessageOneofCase.PlatformAudio;
+      }
+    }
+
+    /// <summary>Field number for the "error" field.</summary>
+    public const int ErrorFieldNumber = 2;
+    /// <summary>
+    /// Error message if creation failed.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Error {
+      get { return HasError ? (string) message_ : ""; }
+      set {
+        message_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        messageCase_ = MessageOneofCase.Error;
+      }
+    }
+    /// <summary>Gets whether the "error" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasError {
+      get { return messageCase_ == MessageOneofCase.Error; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "error" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearError() {
+      if (HasError) {
+        ClearMessage();
+      }
+    }
+
+    private object message_;
+    /// <summary>Enum of possible cases for the "message" oneof.</summary>
+    public enum MessageOneofCase {
+      None = 0,
+      PlatformAudio = 1,
+      Error = 2,
+    }
+    private MessageOneofCase messageCase_ = MessageOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public MessageOneofCase MessageCase {
+      get { return messageCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearMessage() {
+      messageCase_ = MessageOneofCase.None;
+      message_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as NewPlatformAudioResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(NewPlatformAudioResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(PlatformAudio, other.PlatformAudio)) return false;
+      if (Error != other.Error) return false;
+      if (MessageCase != other.MessageCase) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (messageCase_ == MessageOneofCase.PlatformAudio) hash ^= PlatformAudio.GetHashCode();
+      if (HasError) hash ^= Error.GetHashCode();
+      hash ^= (int) messageCase_;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (messageCase_ == MessageOneofCase.PlatformAudio) {
+        output.WriteRawTag(10);
+        output.WriteMessage(PlatformAudio);
+      }
+      if (HasError) {
+        output.WriteRawTag(18);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (messageCase_ == MessageOneofCase.PlatformAudio) {
+        output.WriteRawTag(10);
+        output.WriteMessage(PlatformAudio);
+      }
+      if (HasError) {
+        output.WriteRawTag(18);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (messageCase_ == MessageOneofCase.PlatformAudio) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlatformAudio);
+      }
+      if (HasError) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(NewPlatformAudioResponse other) {
+      if (other == null) {
+        return;
+      }
+      switch (other.MessageCase) {
+        case MessageOneofCase.PlatformAudio:
+          if (PlatformAudio == null) {
+            PlatformAudio = new global::LiveKit.Proto.OwnedPlatformAudio();
+          }
+          PlatformAudio.MergeFrom(other.PlatformAudio);
+          break;
+        case MessageOneofCase.Error:
+          Error = other.Error;
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            global::LiveKit.Proto.OwnedPlatformAudio subBuilder = new global::LiveKit.Proto.OwnedPlatformAudio();
+            if (messageCase_ == MessageOneofCase.PlatformAudio) {
+              subBuilder.MergeFrom(PlatformAudio);
+            }
+            input.ReadMessage(subBuilder);
+            PlatformAudio = subBuilder;
+            break;
+          }
+          case 18: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            global::LiveKit.Proto.OwnedPlatformAudio subBuilder = new global::LiveKit.Proto.OwnedPlatformAudio();
+            if (messageCase_ == MessageOneofCase.PlatformAudio) {
+              subBuilder.MergeFrom(PlatformAudio);
+            }
+            input.ReadMessage(subBuilder);
+            PlatformAudio = subBuilder;
+            break;
+          }
+          case 18: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Get available audio devices.
+  ///
+  /// Returns lists of available recording (microphone) and playout (speaker) devices.
+  ///
+  /// # Platform Notes
+  ///
+  /// - Desktop (Windows/macOS/Linux): Returns all available devices with names and GUIDs.
+  /// - Mobile (iOS/Android): Returns only one "default" device with empty name and GUID.
+  ///   Device enumeration is not meaningful on mobile - use for device count only.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class GetAudioDevicesRequest : pb::IMessage<GetAudioDevicesRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GetAudioDevicesRequest> _parser = new pb::MessageParser<GetAudioDevicesRequest>(() => new GetAudioDevicesRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GetAudioDevicesRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.AudioFrameReflection.Descriptor.MessageTypes[51]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetAudioDevicesRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetAudioDevicesRequest(GetAudioDevicesRequest other) : this() {
+      _hasBits0 = other._hasBits0;
+      platformAudioHandle_ = other.platformAudioHandle_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetAudioDevicesRequest Clone() {
+      return new GetAudioDevicesRequest(this);
+    }
+
+    /// <summary>Field number for the "platform_audio_handle" field.</summary>
+    public const int PlatformAudioHandleFieldNumber = 1;
+    private readonly static ulong PlatformAudioHandleDefaultValue = 0UL;
+
+    private ulong platformAudioHandle_;
+    /// <summary>
+    /// The PlatformAudio handle.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong PlatformAudioHandle {
+      get { if ((_hasBits0 & 1) != 0) { return platformAudioHandle_; } else { return PlatformAudioHandleDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        platformAudioHandle_ = value;
+      }
+    }
+    /// <summary>Gets whether the "platform_audio_handle" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPlatformAudioHandle {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "platform_audio_handle" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPlatformAudioHandle() {
+      _hasBits0 &= ~1;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GetAudioDevicesRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GetAudioDevicesRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (PlatformAudioHandle != other.PlatformAudioHandle) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasPlatformAudioHandle) hash ^= PlatformAudioHandle.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasPlatformAudioHandle) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(PlatformAudioHandle);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasPlatformAudioHandle) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(PlatformAudioHandle);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasPlatformAudioHandle) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(PlatformAudioHandle);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GetAudioDevicesRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasPlatformAudioHandle) {
+        PlatformAudioHandle = other.PlatformAudioHandle;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            PlatformAudioHandle = input.ReadUInt64();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            PlatformAudioHandle = input.ReadUInt64();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class GetAudioDevicesResponse : pb::IMessage<GetAudioDevicesResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<GetAudioDevicesResponse> _parser = new pb::MessageParser<GetAudioDevicesResponse>(() => new GetAudioDevicesResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<GetAudioDevicesResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.AudioFrameReflection.Descriptor.MessageTypes[52]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetAudioDevicesResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetAudioDevicesResponse(GetAudioDevicesResponse other) : this() {
+      playoutDevices_ = other.playoutDevices_.Clone();
+      recordingDevices_ = other.recordingDevices_.Clone();
+      error_ = other.error_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public GetAudioDevicesResponse Clone() {
+      return new GetAudioDevicesResponse(this);
+    }
+
+    /// <summary>Field number for the "playout_devices" field.</summary>
+    public const int PlayoutDevicesFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::LiveKit.Proto.AudioDeviceInfo> _repeated_playoutDevices_codec
+        = pb::FieldCodec.ForMessage(10, global::LiveKit.Proto.AudioDeviceInfo.Parser);
+    private readonly pbc::RepeatedField<global::LiveKit.Proto.AudioDeviceInfo> playoutDevices_ = new pbc::RepeatedField<global::LiveKit.Proto.AudioDeviceInfo>();
+    /// <summary>
+    /// Available playout devices (speakers/headphones).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::LiveKit.Proto.AudioDeviceInfo> PlayoutDevices {
+      get { return playoutDevices_; }
+    }
+
+    /// <summary>Field number for the "recording_devices" field.</summary>
+    public const int RecordingDevicesFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::LiveKit.Proto.AudioDeviceInfo> _repeated_recordingDevices_codec
+        = pb::FieldCodec.ForMessage(18, global::LiveKit.Proto.AudioDeviceInfo.Parser);
+    private readonly pbc::RepeatedField<global::LiveKit.Proto.AudioDeviceInfo> recordingDevices_ = new pbc::RepeatedField<global::LiveKit.Proto.AudioDeviceInfo>();
+    /// <summary>
+    /// Available recording devices (microphones).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::LiveKit.Proto.AudioDeviceInfo> RecordingDevices {
+      get { return recordingDevices_; }
+    }
+
+    /// <summary>Field number for the "error" field.</summary>
+    public const int ErrorFieldNumber = 3;
+    private readonly static string ErrorDefaultValue = "";
+
+    private string error_;
+    /// <summary>
+    /// Error message if enumeration failed, empty/absent on success.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Error {
+      get { return error_ ?? ErrorDefaultValue; }
+      set {
+        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "error" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasError {
+      get { return error_ != null; }
+    }
+    /// <summary>Clears the value of the "error" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearError() {
+      error_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as GetAudioDevicesResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(GetAudioDevicesResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!playoutDevices_.Equals(other.playoutDevices_)) return false;
+      if(!recordingDevices_.Equals(other.recordingDevices_)) return false;
+      if (Error != other.Error) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= playoutDevices_.GetHashCode();
+      hash ^= recordingDevices_.GetHashCode();
+      if (HasError) hash ^= Error.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      playoutDevices_.WriteTo(output, _repeated_playoutDevices_codec);
+      recordingDevices_.WriteTo(output, _repeated_recordingDevices_codec);
+      if (HasError) {
+        output.WriteRawTag(26);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      playoutDevices_.WriteTo(ref output, _repeated_playoutDevices_codec);
+      recordingDevices_.WriteTo(ref output, _repeated_recordingDevices_codec);
+      if (HasError) {
+        output.WriteRawTag(26);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += playoutDevices_.CalculateSize(_repeated_playoutDevices_codec);
+      size += recordingDevices_.CalculateSize(_repeated_recordingDevices_codec);
+      if (HasError) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(GetAudioDevicesResponse other) {
+      if (other == null) {
+        return;
+      }
+      playoutDevices_.Add(other.playoutDevices_);
+      recordingDevices_.Add(other.recordingDevices_);
+      if (other.HasError) {
+        Error = other.Error;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            playoutDevices_.AddEntriesFrom(input, _repeated_playoutDevices_codec);
+            break;
+          }
+          case 18: {
+            recordingDevices_.AddEntriesFrom(input, _repeated_recordingDevices_codec);
+            break;
+          }
+          case 26: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            playoutDevices_.AddEntriesFrom(ref input, _repeated_playoutDevices_codec);
+            break;
+          }
+          case 18: {
+            recordingDevices_.AddEntriesFrom(ref input, _repeated_recordingDevices_codec);
+            break;
+          }
+          case 26: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Set the recording device (microphone).
+  ///
+  /// Call this before creating audio tracks to select which microphone to use.
+  /// Use the GUID from AudioDeviceInfo for stable device selection across hot-plug events.
+  ///
+  /// # Platform Notes
+  ///
+  /// - Desktop: Works as expected - selects from enumerated devices.
+  /// - Mobile (iOS/Android): No-op. Mobile platforms handle microphone selection at the
+  ///   system level. This will succeed but has no effect. Skip calling on mobile.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class SetRecordingDeviceRequest : pb::IMessage<SetRecordingDeviceRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<SetRecordingDeviceRequest> _parser = new pb::MessageParser<SetRecordingDeviceRequest>(() => new SetRecordingDeviceRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<SetRecordingDeviceRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.AudioFrameReflection.Descriptor.MessageTypes[53]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SetRecordingDeviceRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SetRecordingDeviceRequest(SetRecordingDeviceRequest other) : this() {
+      _hasBits0 = other._hasBits0;
+      platformAudioHandle_ = other.platformAudioHandle_;
+      deviceId_ = other.deviceId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SetRecordingDeviceRequest Clone() {
+      return new SetRecordingDeviceRequest(this);
+    }
+
+    /// <summary>Field number for the "platform_audio_handle" field.</summary>
+    public const int PlatformAudioHandleFieldNumber = 1;
+    private readonly static ulong PlatformAudioHandleDefaultValue = 0UL;
+
+    private ulong platformAudioHandle_;
+    /// <summary>
+    /// The PlatformAudio handle.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong PlatformAudioHandle {
+      get { if ((_hasBits0 & 1) != 0) { return platformAudioHandle_; } else { return PlatformAudioHandleDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        platformAudioHandle_ = value;
+      }
+    }
+    /// <summary>Gets whether the "platform_audio_handle" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPlatformAudioHandle {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "platform_audio_handle" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPlatformAudioHandle() {
+      _hasBits0 &= ~1;
+    }
+
+    /// <summary>Field number for the "device_id" field.</summary>
+    public const int DeviceIdFieldNumber = 2;
+    private readonly static string DeviceIdDefaultValue = "";
+
+    private string deviceId_;
+    /// <summary>
+    /// Device GUID from AudioDeviceInfo.guid - stable across device additions/removals.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string DeviceId {
+      get { return deviceId_ ?? DeviceIdDefaultValue; }
+      set {
+        deviceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "device_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasDeviceId {
+      get { return deviceId_ != null; }
+    }
+    /// <summary>Clears the value of the "device_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearDeviceId() {
+      deviceId_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as SetRecordingDeviceRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(SetRecordingDeviceRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (PlatformAudioHandle != other.PlatformAudioHandle) return false;
+      if (DeviceId != other.DeviceId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasPlatformAudioHandle) hash ^= PlatformAudioHandle.GetHashCode();
+      if (HasDeviceId) hash ^= DeviceId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasPlatformAudioHandle) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(PlatformAudioHandle);
+      }
+      if (HasDeviceId) {
+        output.WriteRawTag(18);
+        output.WriteString(DeviceId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasPlatformAudioHandle) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(PlatformAudioHandle);
+      }
+      if (HasDeviceId) {
+        output.WriteRawTag(18);
+        output.WriteString(DeviceId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasPlatformAudioHandle) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(PlatformAudioHandle);
+      }
+      if (HasDeviceId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(SetRecordingDeviceRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasPlatformAudioHandle) {
+        PlatformAudioHandle = other.PlatformAudioHandle;
+      }
+      if (other.HasDeviceId) {
+        DeviceId = other.DeviceId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            PlatformAudioHandle = input.ReadUInt64();
+            break;
+          }
+          case 18: {
+            DeviceId = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            PlatformAudioHandle = input.ReadUInt64();
+            break;
+          }
+          case 18: {
+            DeviceId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class SetRecordingDeviceResponse : pb::IMessage<SetRecordingDeviceResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<SetRecordingDeviceResponse> _parser = new pb::MessageParser<SetRecordingDeviceResponse>(() => new SetRecordingDeviceResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<SetRecordingDeviceResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.AudioFrameReflection.Descriptor.MessageTypes[54]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SetRecordingDeviceResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SetRecordingDeviceResponse(SetRecordingDeviceResponse other) : this() {
+      error_ = other.error_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SetRecordingDeviceResponse Clone() {
+      return new SetRecordingDeviceResponse(this);
+    }
+
+    /// <summary>Field number for the "error" field.</summary>
+    public const int ErrorFieldNumber = 1;
+    private readonly static string ErrorDefaultValue = "";
+
+    private string error_;
+    /// <summary>
+    /// Error message if the operation failed.
+    /// Empty/absent on success (including no-op success on mobile).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Error {
+      get { return error_ ?? ErrorDefaultValue; }
+      set {
+        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "error" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasError {
+      get { return error_ != null; }
+    }
+    /// <summary>Clears the value of the "error" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearError() {
+      error_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as SetRecordingDeviceResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(SetRecordingDeviceResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Error != other.Error) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasError) hash ^= Error.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasError) {
+        output.WriteRawTag(10);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasError) {
+        output.WriteRawTag(10);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasError) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(SetRecordingDeviceResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasError) {
+        Error = other.Error;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Set the playout device (speaker/headphones).
+  ///
+  /// Call this before connecting to select which speaker to use for audio output.
+  /// Use the GUID from AudioDeviceInfo for stable device selection across hot-plug events.
+  ///
+  /// # Platform Notes
+  ///
+  /// - Desktop: Works as expected - selects from enumerated devices.
+  /// - Mobile (iOS/Android): No-op. Mobile platforms handle audio routing at the system level.
+  ///   This will succeed but has no effect. For audio routing on mobile:
+  ///   - iOS: Use AVAudioSession to control speaker/earpiece/Bluetooth routing
+  ///   - Android: Use AudioManager.setSpeakerphoneOn() to switch outputs
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class SetPlayoutDeviceRequest : pb::IMessage<SetPlayoutDeviceRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<SetPlayoutDeviceRequest> _parser = new pb::MessageParser<SetPlayoutDeviceRequest>(() => new SetPlayoutDeviceRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<SetPlayoutDeviceRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.AudioFrameReflection.Descriptor.MessageTypes[55]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SetPlayoutDeviceRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SetPlayoutDeviceRequest(SetPlayoutDeviceRequest other) : this() {
+      _hasBits0 = other._hasBits0;
+      platformAudioHandle_ = other.platformAudioHandle_;
+      deviceId_ = other.deviceId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SetPlayoutDeviceRequest Clone() {
+      return new SetPlayoutDeviceRequest(this);
+    }
+
+    /// <summary>Field number for the "platform_audio_handle" field.</summary>
+    public const int PlatformAudioHandleFieldNumber = 1;
+    private readonly static ulong PlatformAudioHandleDefaultValue = 0UL;
+
+    private ulong platformAudioHandle_;
+    /// <summary>
+    /// The PlatformAudio handle.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong PlatformAudioHandle {
+      get { if ((_hasBits0 & 1) != 0) { return platformAudioHandle_; } else { return PlatformAudioHandleDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        platformAudioHandle_ = value;
+      }
+    }
+    /// <summary>Gets whether the "platform_audio_handle" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPlatformAudioHandle {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "platform_audio_handle" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPlatformAudioHandle() {
+      _hasBits0 &= ~1;
+    }
+
+    /// <summary>Field number for the "device_id" field.</summary>
+    public const int DeviceIdFieldNumber = 2;
+    private readonly static string DeviceIdDefaultValue = "";
+
+    private string deviceId_;
+    /// <summary>
+    /// Device GUID from AudioDeviceInfo.guid - stable across device additions/removals.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string DeviceId {
+      get { return deviceId_ ?? DeviceIdDefaultValue; }
+      set {
+        deviceId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "device_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasDeviceId {
+      get { return deviceId_ != null; }
+    }
+    /// <summary>Clears the value of the "device_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearDeviceId() {
+      deviceId_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as SetPlayoutDeviceRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(SetPlayoutDeviceRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (PlatformAudioHandle != other.PlatformAudioHandle) return false;
+      if (DeviceId != other.DeviceId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasPlatformAudioHandle) hash ^= PlatformAudioHandle.GetHashCode();
+      if (HasDeviceId) hash ^= DeviceId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasPlatformAudioHandle) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(PlatformAudioHandle);
+      }
+      if (HasDeviceId) {
+        output.WriteRawTag(18);
+        output.WriteString(DeviceId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasPlatformAudioHandle) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(PlatformAudioHandle);
+      }
+      if (HasDeviceId) {
+        output.WriteRawTag(18);
+        output.WriteString(DeviceId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasPlatformAudioHandle) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(PlatformAudioHandle);
+      }
+      if (HasDeviceId) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(DeviceId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(SetPlayoutDeviceRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasPlatformAudioHandle) {
+        PlatformAudioHandle = other.PlatformAudioHandle;
+      }
+      if (other.HasDeviceId) {
+        DeviceId = other.DeviceId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            PlatformAudioHandle = input.ReadUInt64();
+            break;
+          }
+          case 18: {
+            DeviceId = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            PlatformAudioHandle = input.ReadUInt64();
+            break;
+          }
+          case 18: {
+            DeviceId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class SetPlayoutDeviceResponse : pb::IMessage<SetPlayoutDeviceResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<SetPlayoutDeviceResponse> _parser = new pb::MessageParser<SetPlayoutDeviceResponse>(() => new SetPlayoutDeviceResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<SetPlayoutDeviceResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.AudioFrameReflection.Descriptor.MessageTypes[56]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SetPlayoutDeviceResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SetPlayoutDeviceResponse(SetPlayoutDeviceResponse other) : this() {
+      error_ = other.error_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public SetPlayoutDeviceResponse Clone() {
+      return new SetPlayoutDeviceResponse(this);
+    }
+
+    /// <summary>Field number for the "error" field.</summary>
+    public const int ErrorFieldNumber = 1;
+    private readonly static string ErrorDefaultValue = "";
+
+    private string error_;
+    /// <summary>
+    /// Error message if the operation failed.
+    /// Empty/absent on success (including no-op success on mobile).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Error {
+      get { return error_ ?? ErrorDefaultValue; }
+      set {
+        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "error" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasError {
+      get { return error_ != null; }
+    }
+    /// <summary>Clears the value of the "error" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearError() {
+      error_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as SetPlayoutDeviceResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(SetPlayoutDeviceResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Error != other.Error) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasError) hash ^= Error.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasError) {
+        output.WriteRawTag(10);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasError) {
+        output.WriteRawTag(10);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasError) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(SetPlayoutDeviceResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasError) {
+        Error = other.Error;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Start recording from the microphone.
+  ///
+  /// Recording is started automatically when PlatformAudio is created.
+  /// Use this to resume recording after calling StopRecording.
+  /// This also turns on the system's recording privacy indicator.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class StartRecordingRequest : pb::IMessage<StartRecordingRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StartRecordingRequest> _parser = new pb::MessageParser<StartRecordingRequest>(() => new StartRecordingRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StartRecordingRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.AudioFrameReflection.Descriptor.MessageTypes[57]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StartRecordingRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StartRecordingRequest(StartRecordingRequest other) : this() {
+      _hasBits0 = other._hasBits0;
+      platformAudioHandle_ = other.platformAudioHandle_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StartRecordingRequest Clone() {
+      return new StartRecordingRequest(this);
+    }
+
+    /// <summary>Field number for the "platform_audio_handle" field.</summary>
+    public const int PlatformAudioHandleFieldNumber = 1;
+    private readonly static ulong PlatformAudioHandleDefaultValue = 0UL;
+
+    private ulong platformAudioHandle_;
+    /// <summary>
+    /// The PlatformAudio handle.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong PlatformAudioHandle {
+      get { if ((_hasBits0 & 1) != 0) { return platformAudioHandle_; } else { return PlatformAudioHandleDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        platformAudioHandle_ = value;
+      }
+    }
+    /// <summary>Gets whether the "platform_audio_handle" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPlatformAudioHandle {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "platform_audio_handle" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPlatformAudioHandle() {
+      _hasBits0 &= ~1;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StartRecordingRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StartRecordingRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (PlatformAudioHandle != other.PlatformAudioHandle) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasPlatformAudioHandle) hash ^= PlatformAudioHandle.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasPlatformAudioHandle) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(PlatformAudioHandle);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasPlatformAudioHandle) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(PlatformAudioHandle);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasPlatformAudioHandle) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(PlatformAudioHandle);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StartRecordingRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasPlatformAudioHandle) {
+        PlatformAudioHandle = other.PlatformAudioHandle;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            PlatformAudioHandle = input.ReadUInt64();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            PlatformAudioHandle = input.ReadUInt64();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class StartRecordingResponse : pb::IMessage<StartRecordingResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StartRecordingResponse> _parser = new pb::MessageParser<StartRecordingResponse>(() => new StartRecordingResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StartRecordingResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.AudioFrameReflection.Descriptor.MessageTypes[58]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StartRecordingResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StartRecordingResponse(StartRecordingResponse other) : this() {
+      error_ = other.error_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StartRecordingResponse Clone() {
+      return new StartRecordingResponse(this);
+    }
+
+    /// <summary>Field number for the "error" field.</summary>
+    public const int ErrorFieldNumber = 1;
+    private readonly static string ErrorDefaultValue = "";
+
+    private string error_;
+    /// <summary>
+    /// Error message if the operation failed.
+    /// Empty/absent on success.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Error {
+      get { return error_ ?? ErrorDefaultValue; }
+      set {
+        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "error" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasError {
+      get { return error_ != null; }
+    }
+    /// <summary>Clears the value of the "error" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearError() {
+      error_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StartRecordingResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StartRecordingResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Error != other.Error) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasError) hash ^= Error.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasError) {
+        output.WriteRawTag(10);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasError) {
+        output.WriteRawTag(10);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasError) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StartRecordingResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasError) {
+        Error = other.Error;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            Error = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// Stop recording from the microphone.
+  ///
+  /// Use this to temporarily stop recording without disposing PlatformAudio.
+  /// This will turn off the system's recording privacy indicator (e.g., on macOS/iOS).
+  /// Call StartRecording to resume recording.
+  /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class StopRecordingRequest : pb::IMessage<StopRecordingRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StopRecordingRequest> _parser = new pb::MessageParser<StopRecordingRequest>(() => new StopRecordingRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StopRecordingRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.AudioFrameReflection.Descriptor.MessageTypes[59]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StopRecordingRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StopRecordingRequest(StopRecordingRequest other) : this() {
+      _hasBits0 = other._hasBits0;
+      platformAudioHandle_ = other.platformAudioHandle_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StopRecordingRequest Clone() {
+      return new StopRecordingRequest(this);
+    }
+
+    /// <summary>Field number for the "platform_audio_handle" field.</summary>
+    public const int PlatformAudioHandleFieldNumber = 1;
+    private readonly static ulong PlatformAudioHandleDefaultValue = 0UL;
+
+    private ulong platformAudioHandle_;
+    /// <summary>
+    /// The PlatformAudio handle.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong PlatformAudioHandle {
+      get { if ((_hasBits0 & 1) != 0) { return platformAudioHandle_; } else { return PlatformAudioHandleDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        platformAudioHandle_ = value;
+      }
+    }
+    /// <summary>Gets whether the "platform_audio_handle" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPlatformAudioHandle {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "platform_audio_handle" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPlatformAudioHandle() {
+      _hasBits0 &= ~1;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StopRecordingRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StopRecordingRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (PlatformAudioHandle != other.PlatformAudioHandle) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasPlatformAudioHandle) hash ^= PlatformAudioHandle.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasPlatformAudioHandle) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(PlatformAudioHandle);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasPlatformAudioHandle) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(PlatformAudioHandle);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasPlatformAudioHandle) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(PlatformAudioHandle);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StopRecordingRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasPlatformAudioHandle) {
+        PlatformAudioHandle = other.PlatformAudioHandle;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            PlatformAudioHandle = input.ReadUInt64();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            PlatformAudioHandle = input.ReadUInt64();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class StopRecordingResponse : pb::IMessage<StopRecordingResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StopRecordingResponse> _parser = new pb::MessageParser<StopRecordingResponse>(() => new StopRecordingResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StopRecordingResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::LiveKit.Proto.AudioFrameReflection.Descriptor.MessageTypes[60]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StopRecordingResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StopRecordingResponse(StopRecordingResponse other) : this() {
+      error_ = other.error_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StopRecordingResponse Clone() {
+      return new StopRecordingResponse(this);
+    }
+
+    /// <summary>Field number for the "error" field.</summary>
+    public const int ErrorFieldNumber = 1;
+    private readonly static string ErrorDefaultValue = "";
+
+    private string error_;
+    /// <summary>
+    /// Error message if the operation failed.
+    /// Empty/absent on success.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Error {
+      get { return error_ ?? ErrorDefaultValue; }
+      set {
+        error_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+    /// <summary>Gets whether the "error" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasError {
+      get { return error_ != null; }
+    }
+    /// <summary>Clears the value of the "error" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearError() {
+      error_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StopRecordingResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StopRecordingResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Error != other.Error) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasError) hash ^= Error.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasError) {
+        output.WriteRawTag(10);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasError) {
+        output.WriteRawTag(10);
+        output.WriteString(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasError) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Error);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StopRecordingResponse other) {
       if (other == null) {
         return;
       }

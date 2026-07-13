@@ -26,6 +26,9 @@ namespace LiveKit.PlayModeTests.Utils
                 return options;
             });
             _connectionOptions = withDefaults.ToList();
+
+            for (int i = 0; i < _connectionOptions.Count; i++)
+                Rooms.Add(new Room());
         }
 
         public struct ConnectionOptions
@@ -39,6 +42,7 @@ namespace LiveKit.PlayModeTests.Utils
             public bool CanSubscribe;
             public bool CanUpdateOwnMetadata;
             public string ServerUrl;
+            public bool Dynacast;
 
             public static ConnectionOptions Default => new ConnectionOptions
             {
@@ -47,26 +51,32 @@ namespace LiveKit.PlayModeTests.Utils
                 CanPublish = true,
                 CanPublishData = true,
                 CanSubscribe = true,
+                Dynacast = true,
             };
         }
 
         public IEnumerator ConnectAll()
         {
-            foreach (var options in _connectionOptions)
+            for (int i = 0; i < _connectionOptions.Count; i++)
             {
-                var token = CreateToken(options);
-                var room = new Room();
-                var roomOptions = new RoomOptions();
-                var connect = room.Connect(options.ServerUrl ?? _serverUrl, token, roomOptions);
-                yield return connect;
+                yield return ConnectRoom(i);
+                if (ConnectionError != null) yield break;
+            }
+        }
 
-                if (connect.IsError)
-                {
-                    // TODO: Expose error details once available through API
-                    ConnectionError = $"Participant '{options.Identity}' failed to connect to test room";
-                    yield break;
-                }
-                Rooms.Add(room);
+        public IEnumerator ConnectRoom(int index)
+        {
+            ConnectionOptions options = _connectionOptions[index];
+            var room = Rooms[index];
+            var token = CreateToken(options);
+            var roomOptions = new RoomOptions { Dynacast = options.Dynacast };
+            var connect = room.Connect(options.ServerUrl ?? _serverUrl, token, roomOptions);
+            yield return connect;
+
+            if (connect.IsError)
+            {
+                // TODO: Expose error details once available through API
+                ConnectionError = $"Participant '{options.Identity}' failed to connect to test room";
             }
         }
 
@@ -79,12 +89,12 @@ namespace LiveKit.PlayModeTests.Utils
 
         private string CreateToken(ConnectionOptions options)
         {
-            var claims = new AccessToken.Claims
+            var claims = new LiveKitToken.Claims
             {
                 iss = _apiKey,
                 sub = options.Identity,
                 name = options.DisplayName,
-                video = new AccessToken.VideoGrants
+                video = new LiveKitToken.VideoGrants
                 {
                     room = RoomName,
                     roomJoin = true,
@@ -96,7 +106,7 @@ namespace LiveKit.PlayModeTests.Utils
                 },
                 metadata = options.Metadata
             };
-            return AccessToken.Encode(claims, _apiSecret);
+            return LiveKitToken.Encode(claims, _apiSecret);
         }
 
         public void Dispose()

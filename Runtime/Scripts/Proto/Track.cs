@@ -31,56 +31,66 @@ namespace LiveKit.Proto {
             "ZWtpdC5wcm90by5Pd25lZFRyYWNrIj4KF0NyZWF0ZUF1ZGlvVHJhY2tSZXF1",
             "ZXN0EgwKBG5hbWUYASACKAkSFQoNc291cmNlX2hhbmRsZRgCIAIoBCJEChhD",
             "cmVhdGVBdWRpb1RyYWNrUmVzcG9uc2USKAoFdHJhY2sYASACKAsyGS5saXZl",
-            "a2l0LnByb3RvLk93bmVkVHJhY2siJwoPR2V0U3RhdHNSZXF1ZXN0EhQKDHRy",
-            "YWNrX2hhbmRsZRgBIAIoBCIkChBHZXRTdGF0c1Jlc3BvbnNlEhAKCGFzeW5j",
-            "X2lkGAEgAigEIlsKEEdldFN0YXRzQ2FsbGJhY2sSEAoIYXN5bmNfaWQYASAC",
-            "KAQSDQoFZXJyb3IYAiABKAkSJgoFc3RhdHMYAyADKAsyFy5saXZla2l0LnBy",
-            "b3RvLlJ0Y1N0YXRzIgwKClRyYWNrRXZlbnQiowIKFFRyYWNrUHVibGljYXRp",
-            "b25JbmZvEgsKA3NpZBgBIAIoCRIMCgRuYW1lGAIgAigJEiYKBGtpbmQYAyAC",
-            "KA4yGC5saXZla2l0LnByb3RvLlRyYWNrS2luZBIqCgZzb3VyY2UYBCACKA4y",
-            "Gi5saXZla2l0LnByb3RvLlRyYWNrU291cmNlEhMKC3NpbXVsY2FzdGVkGAUg",
-            "AigIEg0KBXdpZHRoGAYgAigNEg4KBmhlaWdodBgHIAIoDRIRCgltaW1lX3R5",
-            "cGUYCCACKAkSDQoFbXV0ZWQYCSACKAgSDgoGcmVtb3RlGAogAigIEjYKD2Vu",
-            "Y3J5cHRpb25fdHlwZRgLIAIoDjIdLmxpdmVraXQucHJvdG8uRW5jcnlwdGlv",
-            "blR5cGUieQoVT3duZWRUcmFja1B1YmxpY2F0aW9uEi0KBmhhbmRsZRgBIAIo",
-            "CzIdLmxpdmVraXQucHJvdG8uRmZpT3duZWRIYW5kbGUSMQoEaW5mbxgCIAIo",
-            "CzIjLmxpdmVraXQucHJvdG8uVHJhY2tQdWJsaWNhdGlvbkluZm8inwEKCVRy",
-            "YWNrSW5mbxILCgNzaWQYASACKAkSDAoEbmFtZRgCIAIoCRImCgRraW5kGAMg",
-            "AigOMhgubGl2ZWtpdC5wcm90by5UcmFja0tpbmQSMAoMc3RyZWFtX3N0YXRl",
-            "GAQgAigOMhoubGl2ZWtpdC5wcm90by5TdHJlYW1TdGF0ZRINCgVtdXRlZBgF",
-            "IAIoCBIOCgZyZW1vdGUYBiACKAgiYwoKT3duZWRUcmFjaxItCgZoYW5kbGUY",
-            "ASACKAsyHS5saXZla2l0LnByb3RvLkZmaU93bmVkSGFuZGxlEiYKBGluZm8Y",
-            "AiACKAsyGC5saXZla2l0LnByb3RvLlRyYWNrSW5mbyI7ChVMb2NhbFRyYWNr",
-            "TXV0ZVJlcXVlc3QSFAoMdHJhY2tfaGFuZGxlGAEgAigEEgwKBG11dGUYAiAC",
-            "KAgiJwoWTG9jYWxUcmFja011dGVSZXNwb25zZRINCgVtdXRlZBgBIAIoCCJB",
-            "ChhFbmFibGVSZW1vdGVUcmFja1JlcXVlc3QSFAoMdHJhY2tfaGFuZGxlGAEg",
-            "AigEEg8KB2VuYWJsZWQYAiACKAgiLAoZRW5hYmxlUmVtb3RlVHJhY2tSZXNw",
-            "b25zZRIPCgdlbmFibGVkGAEgAigIIqwBCiZTZXRUcmFja1N1YnNjcmlwdGlv",
-            "blBlcm1pc3Npb25zUmVxdWVzdBIgChhsb2NhbF9wYXJ0aWNpcGFudF9oYW5k",
-            "bGUYASACKAQSIAoYYWxsX3BhcnRpY2lwYW50c19hbGxvd2VkGAIgAigIEj4K",
-            "C3Blcm1pc3Npb25zGAMgAygLMikubGl2ZWtpdC5wcm90by5QYXJ0aWNpcGFu",
-            "dFRyYWNrUGVybWlzc2lvbiJpChpQYXJ0aWNpcGFudFRyYWNrUGVybWlzc2lv",
-            "bhIcChRwYXJ0aWNpcGFudF9pZGVudGl0eRgBIAIoCRIRCglhbGxvd19hbGwY",
-            "AiABKAgSGgoSYWxsb3dlZF90cmFja19zaWRzGAMgAygJIikKJ1NldFRyYWNr",
-            "U3Vic2NyaXB0aW9uUGVybWlzc2lvbnNSZXNwb25zZSo9CglUcmFja0tpbmQS",
-            "EAoMS0lORF9VTktOT1dOEAASDgoKS0lORF9BVURJTxABEg4KCktJTkRfVklE",
-            "RU8QAiqBAQoLVHJhY2tTb3VyY2USEgoOU09VUkNFX1VOS05PV04QABIRCg1T",
-            "T1VSQ0VfQ0FNRVJBEAESFQoRU09VUkNFX01JQ1JPUEhPTkUQAhIWChJTT1VS",
-            "Q0VfU0NSRUVOU0hBUkUQAxIcChhTT1VSQ0VfU0NSRUVOU0hBUkVfQVVESU8Q",
-            "BCpECgtTdHJlYW1TdGF0ZRIRCg1TVEFURV9VTktOT1dOEAASEAoMU1RBVEVf",
-            "QUNUSVZFEAESEAoMU1RBVEVfUEFVU0VEEAJCEKoCDUxpdmVLaXQuUHJvdG8="));
+            "a2l0LnByb3RvLk93bmVkVHJhY2siQQoPR2V0U3RhdHNSZXF1ZXN0EhQKDHRy",
+            "YWNrX2hhbmRsZRgBIAIoBBIYChByZXF1ZXN0X2FzeW5jX2lkGAIgASgEIiQK",
+            "EEdldFN0YXRzUmVzcG9uc2USEAoIYXN5bmNfaWQYASACKAQiWwoQR2V0U3Rh",
+            "dHNDYWxsYmFjaxIQCghhc3luY19pZBgBIAIoBBINCgVlcnJvchgCIAEoCRIm",
+            "CgVzdGF0cxgDIAMoCzIXLmxpdmVraXQucHJvdG8uUnRjU3RhdHMiDAoKVHJh",
+            "Y2tFdmVudCKjAwoUVHJhY2tQdWJsaWNhdGlvbkluZm8SCwoDc2lkGAEgAigJ",
+            "EgwKBG5hbWUYAiACKAkSJgoEa2luZBgDIAIoDjIYLmxpdmVraXQucHJvdG8u",
+            "VHJhY2tLaW5kEioKBnNvdXJjZRgEIAIoDjIaLmxpdmVraXQucHJvdG8uVHJh",
+            "Y2tTb3VyY2USEwoLc2ltdWxjYXN0ZWQYBSACKAgSDQoFd2lkdGgYBiACKA0S",
+            "DgoGaGVpZ2h0GAcgAigNEhEKCW1pbWVfdHlwZRgIIAIoCRINCgVtdXRlZBgJ",
+            "IAIoCBIOCgZyZW1vdGUYCiACKAgSNgoPZW5jcnlwdGlvbl90eXBlGAsgAigO",
+            "Mh0ubGl2ZWtpdC5wcm90by5FbmNyeXB0aW9uVHlwZRI4Cg5hdWRpb19mZWF0",
+            "dXJlcxgMIAMoDjIgLmxpdmVraXQucHJvdG8uQXVkaW9UcmFja0ZlYXR1cmUS",
+            "RAoXZnJhbWVfbWV0YWRhdGFfZmVhdHVyZXMYDSADKA4yIy5saXZla2l0LnBy",
+            "b3RvLkZyYW1lTWV0YWRhdGFGZWF0dXJlInkKFU93bmVkVHJhY2tQdWJsaWNh",
+            "dGlvbhItCgZoYW5kbGUYASACKAsyHS5saXZla2l0LnByb3RvLkZmaU93bmVk",
+            "SGFuZGxlEjEKBGluZm8YAiACKAsyIy5saXZla2l0LnByb3RvLlRyYWNrUHVi",
+            "bGljYXRpb25JbmZvIp8BCglUcmFja0luZm8SCwoDc2lkGAEgAigJEgwKBG5h",
+            "bWUYAiACKAkSJgoEa2luZBgDIAIoDjIYLmxpdmVraXQucHJvdG8uVHJhY2tL",
+            "aW5kEjAKDHN0cmVhbV9zdGF0ZRgEIAIoDjIaLmxpdmVraXQucHJvdG8uU3Ry",
+            "ZWFtU3RhdGUSDQoFbXV0ZWQYBSACKAgSDgoGcmVtb3RlGAYgAigIImMKCk93",
+            "bmVkVHJhY2sSLQoGaGFuZGxlGAEgAigLMh0ubGl2ZWtpdC5wcm90by5GZmlP",
+            "d25lZEhhbmRsZRImCgRpbmZvGAIgAigLMhgubGl2ZWtpdC5wcm90by5UcmFj",
+            "a0luZm8iOwoVTG9jYWxUcmFja011dGVSZXF1ZXN0EhQKDHRyYWNrX2hhbmRs",
+            "ZRgBIAIoBBIMCgRtdXRlGAIgAigIIicKFkxvY2FsVHJhY2tNdXRlUmVzcG9u",
+            "c2USDQoFbXV0ZWQYASACKAgiQQoYRW5hYmxlUmVtb3RlVHJhY2tSZXF1ZXN0",
+            "EhQKDHRyYWNrX2hhbmRsZRgBIAIoBBIPCgdlbmFibGVkGAIgAigIIiwKGUVu",
+            "YWJsZVJlbW90ZVRyYWNrUmVzcG9uc2USDwoHZW5hYmxlZBgBIAIoCCKsAQom",
+            "U2V0VHJhY2tTdWJzY3JpcHRpb25QZXJtaXNzaW9uc1JlcXVlc3QSIAoYbG9j",
+            "YWxfcGFydGljaXBhbnRfaGFuZGxlGAEgAigEEiAKGGFsbF9wYXJ0aWNpcGFu",
+            "dHNfYWxsb3dlZBgCIAIoCBI+CgtwZXJtaXNzaW9ucxgDIAMoCzIpLmxpdmVr",
+            "aXQucHJvdG8uUGFydGljaXBhbnRUcmFja1Blcm1pc3Npb24iaQoaUGFydGlj",
+            "aXBhbnRUcmFja1Blcm1pc3Npb24SHAoUcGFydGljaXBhbnRfaWRlbnRpdHkY",
+            "ASACKAkSEQoJYWxsb3dfYWxsGAIgASgIEhoKEmFsbG93ZWRfdHJhY2tfc2lk",
+            "cxgDIAMoCSIpCidTZXRUcmFja1N1YnNjcmlwdGlvblBlcm1pc3Npb25zUmVz",
+            "cG9uc2UqPQoJVHJhY2tLaW5kEhAKDEtJTkRfVU5LTk9XThAAEg4KCktJTkRf",
+            "QVVESU8QARIOCgpLSU5EX1ZJREVPEAIqgQEKC1RyYWNrU291cmNlEhIKDlNP",
+            "VVJDRV9VTktOT1dOEAASEQoNU09VUkNFX0NBTUVSQRABEhUKEVNPVVJDRV9N",
+            "SUNST1BIT05FEAISFgoSU09VUkNFX1NDUkVFTlNIQVJFEAMSHAoYU09VUkNF",
+            "X1NDUkVFTlNIQVJFX0FVRElPEAQqRAoLU3RyZWFtU3RhdGUSEQoNU1RBVEVf",
+            "VU5LTk9XThAAEhAKDFNUQVRFX0FDVElWRRABEhAKDFNUQVRFX1BBVVNFRBAC",
+            "Kr0BChFBdWRpb1RyYWNrRmVhdHVyZRINCglURl9TVEVSRU8QABINCglURl9O",
+            "T19EVFgQARIYChRURl9BVVRPX0dBSU5fQ09OVFJPTBACEhgKFFRGX0VDSE9f",
+            "Q0FOQ0VMTEFUSU9OEAMSGAoUVEZfTk9JU0VfU1VQUFJFU1NJT04QBBIiCh5U",
+            "Rl9FTkhBTkNFRF9OT0lTRV9DQU5DRUxMQVRJT04QBRIYChRURl9QUkVDT05O",
+            "RUNUX0JVRkZFUhAGKlMKFEZyYW1lTWV0YWRhdGFGZWF0dXJlEhYKEkZNRl9V",
+            "U0VSX1RJTUVTVEFNUBAAEhAKDEZNRl9GUkFNRV9JRBABEhEKDUZNRl9VU0VS",
+            "X0RBVEEQAkIQqgINTGl2ZUtpdC5Qcm90bw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::LiveKit.Proto.E2EeReflection.Descriptor, global::LiveKit.Proto.HandleReflection.Descriptor, global::LiveKit.Proto.StatsReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.TrackKind), typeof(global::LiveKit.Proto.TrackSource), typeof(global::LiveKit.Proto.StreamState), }, null, new pbr::GeneratedClrTypeInfo[] {
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::LiveKit.Proto.TrackKind), typeof(global::LiveKit.Proto.TrackSource), typeof(global::LiveKit.Proto.StreamState), typeof(global::LiveKit.Proto.AudioTrackFeature), typeof(global::LiveKit.Proto.FrameMetadataFeature), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.CreateVideoTrackRequest), global::LiveKit.Proto.CreateVideoTrackRequest.Parser, new[]{ "Name", "SourceHandle" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.CreateVideoTrackResponse), global::LiveKit.Proto.CreateVideoTrackResponse.Parser, new[]{ "Track" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.CreateAudioTrackRequest), global::LiveKit.Proto.CreateAudioTrackRequest.Parser, new[]{ "Name", "SourceHandle" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.CreateAudioTrackResponse), global::LiveKit.Proto.CreateAudioTrackResponse.Parser, new[]{ "Track" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.GetStatsRequest), global::LiveKit.Proto.GetStatsRequest.Parser, new[]{ "TrackHandle" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.GetStatsRequest), global::LiveKit.Proto.GetStatsRequest.Parser, new[]{ "TrackHandle", "RequestAsyncId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.GetStatsResponse), global::LiveKit.Proto.GetStatsResponse.Parser, new[]{ "AsyncId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.GetStatsCallback), global::LiveKit.Proto.GetStatsCallback.Parser, new[]{ "AsyncId", "Error", "Stats" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.TrackEvent), global::LiveKit.Proto.TrackEvent.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.TrackPublicationInfo), global::LiveKit.Proto.TrackPublicationInfo.Parser, new[]{ "Sid", "Name", "Kind", "Source", "Simulcasted", "Width", "Height", "MimeType", "Muted", "Remote", "EncryptionType" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.TrackPublicationInfo), global::LiveKit.Proto.TrackPublicationInfo.Parser, new[]{ "Sid", "Name", "Kind", "Source", "Simulcasted", "Width", "Height", "MimeType", "Muted", "Remote", "EncryptionType", "AudioFeatures", "FrameMetadataFeatures" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.OwnedTrackPublication), global::LiveKit.Proto.OwnedTrackPublication.Parser, new[]{ "Handle", "Info" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.TrackInfo), global::LiveKit.Proto.TrackInfo.Parser, new[]{ "Sid", "Name", "Kind", "StreamState", "Muted", "Remote" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::LiveKit.Proto.OwnedTrack), global::LiveKit.Proto.OwnedTrack.Parser, new[]{ "Handle", "Info" }, null, null, null, null),
@@ -115,6 +125,25 @@ namespace LiveKit.Proto {
     [pbr::OriginalName("STATE_UNKNOWN")] StateUnknown = 0,
     [pbr::OriginalName("STATE_ACTIVE")] StateActive = 1,
     [pbr::OriginalName("STATE_PAUSED")] StatePaused = 2,
+  }
+
+  public enum AudioTrackFeature {
+    [pbr::OriginalName("TF_STEREO")] TfStereo = 0,
+    [pbr::OriginalName("TF_NO_DTX")] TfNoDtx = 1,
+    [pbr::OriginalName("TF_AUTO_GAIN_CONTROL")] TfAutoGainControl = 2,
+    [pbr::OriginalName("TF_ECHO_CANCELLATION")] TfEchoCancellation = 3,
+    [pbr::OriginalName("TF_NOISE_SUPPRESSION")] TfNoiseSuppression = 4,
+    [pbr::OriginalName("TF_ENHANCED_NOISE_CANCELLATION")] TfEnhancedNoiseCancellation = 5,
+    /// <summary>
+    /// client will buffer audio once available and send it to the server via bytes stream once connected
+    /// </summary>
+    [pbr::OriginalName("TF_PRECONNECT_BUFFER")] TfPreconnectBuffer = 6,
+  }
+
+  public enum FrameMetadataFeature {
+    [pbr::OriginalName("FMF_USER_TIMESTAMP")] FmfUserTimestamp = 0,
+    [pbr::OriginalName("FMF_FRAME_ID")] FmfFrameId = 1,
+    [pbr::OriginalName("FMF_USER_DATA")] FmfUserData = 2,
   }
 
   #endregion
@@ -1110,6 +1139,7 @@ namespace LiveKit.Proto {
     public GetStatsRequest(GetStatsRequest other) : this() {
       _hasBits0 = other._hasBits0;
       trackHandle_ = other.trackHandle_;
+      requestAsyncId_ = other.requestAsyncId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1146,6 +1176,33 @@ namespace LiveKit.Proto {
       _hasBits0 &= ~1;
     }
 
+    /// <summary>Field number for the "request_async_id" field.</summary>
+    public const int RequestAsyncIdFieldNumber = 2;
+    private readonly static ulong RequestAsyncIdDefaultValue = 0UL;
+
+    private ulong requestAsyncId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong RequestAsyncId {
+      get { if ((_hasBits0 & 2) != 0) { return requestAsyncId_; } else { return RequestAsyncIdDefaultValue; } }
+      set {
+        _hasBits0 |= 2;
+        requestAsyncId_ = value;
+      }
+    }
+    /// <summary>Gets whether the "request_async_id" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasRequestAsyncId {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "request_async_id" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearRequestAsyncId() {
+      _hasBits0 &= ~2;
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1162,6 +1219,7 @@ namespace LiveKit.Proto {
         return true;
       }
       if (TrackHandle != other.TrackHandle) return false;
+      if (RequestAsyncId != other.RequestAsyncId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1170,6 +1228,7 @@ namespace LiveKit.Proto {
     public override int GetHashCode() {
       int hash = 1;
       if (HasTrackHandle) hash ^= TrackHandle.GetHashCode();
+      if (HasRequestAsyncId) hash ^= RequestAsyncId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1192,6 +1251,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(8);
         output.WriteUInt64(TrackHandle);
       }
+      if (HasRequestAsyncId) {
+        output.WriteRawTag(16);
+        output.WriteUInt64(RequestAsyncId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1206,6 +1269,10 @@ namespace LiveKit.Proto {
         output.WriteRawTag(8);
         output.WriteUInt64(TrackHandle);
       }
+      if (HasRequestAsyncId) {
+        output.WriteRawTag(16);
+        output.WriteUInt64(RequestAsyncId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1218,6 +1285,9 @@ namespace LiveKit.Proto {
       int size = 0;
       if (HasTrackHandle) {
         size += 1 + pb::CodedOutputStream.ComputeUInt64Size(TrackHandle);
+      }
+      if (HasRequestAsyncId) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(RequestAsyncId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1233,6 +1303,9 @@ namespace LiveKit.Proto {
       }
       if (other.HasTrackHandle) {
         TrackHandle = other.TrackHandle;
+      }
+      if (other.HasRequestAsyncId) {
+        RequestAsyncId = other.RequestAsyncId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1257,6 +1330,10 @@ namespace LiveKit.Proto {
             TrackHandle = input.ReadUInt64();
             break;
           }
+          case 16: {
+            RequestAsyncId = input.ReadUInt64();
+            break;
+          }
         }
       }
     #endif
@@ -1278,6 +1355,10 @@ namespace LiveKit.Proto {
             break;
           case 8: {
             TrackHandle = input.ReadUInt64();
+            break;
+          }
+          case 16: {
+            RequestAsyncId = input.ReadUInt64();
             break;
           }
         }
@@ -2003,6 +2084,8 @@ namespace LiveKit.Proto {
       muted_ = other.muted_;
       remote_ = other.remote_;
       encryptionType_ = other.encryptionType_;
+      audioFeatures_ = other.audioFeatures_.Clone();
+      frameMetadataFeatures_ = other.frameMetadataFeatures_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2306,6 +2389,28 @@ namespace LiveKit.Proto {
       _hasBits0 &= ~128;
     }
 
+    /// <summary>Field number for the "audio_features" field.</summary>
+    public const int AudioFeaturesFieldNumber = 12;
+    private static readonly pb::FieldCodec<global::LiveKit.Proto.AudioTrackFeature> _repeated_audioFeatures_codec
+        = pb::FieldCodec.ForEnum(96, x => (int) x, x => (global::LiveKit.Proto.AudioTrackFeature) x);
+    private readonly pbc::RepeatedField<global::LiveKit.Proto.AudioTrackFeature> audioFeatures_ = new pbc::RepeatedField<global::LiveKit.Proto.AudioTrackFeature>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::LiveKit.Proto.AudioTrackFeature> AudioFeatures {
+      get { return audioFeatures_; }
+    }
+
+    /// <summary>Field number for the "frame_metadata_features" field.</summary>
+    public const int FrameMetadataFeaturesFieldNumber = 13;
+    private static readonly pb::FieldCodec<global::LiveKit.Proto.FrameMetadataFeature> _repeated_frameMetadataFeatures_codec
+        = pb::FieldCodec.ForEnum(104, x => (int) x, x => (global::LiveKit.Proto.FrameMetadataFeature) x);
+    private readonly pbc::RepeatedField<global::LiveKit.Proto.FrameMetadataFeature> frameMetadataFeatures_ = new pbc::RepeatedField<global::LiveKit.Proto.FrameMetadataFeature>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::LiveKit.Proto.FrameMetadataFeature> FrameMetadataFeatures {
+      get { return frameMetadataFeatures_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2332,6 +2437,8 @@ namespace LiveKit.Proto {
       if (Muted != other.Muted) return false;
       if (Remote != other.Remote) return false;
       if (EncryptionType != other.EncryptionType) return false;
+      if(!audioFeatures_.Equals(other.audioFeatures_)) return false;
+      if(!frameMetadataFeatures_.Equals(other.frameMetadataFeatures_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2350,6 +2457,8 @@ namespace LiveKit.Proto {
       if (HasMuted) hash ^= Muted.GetHashCode();
       if (HasRemote) hash ^= Remote.GetHashCode();
       if (HasEncryptionType) hash ^= EncryptionType.GetHashCode();
+      hash ^= audioFeatures_.GetHashCode();
+      hash ^= frameMetadataFeatures_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2412,6 +2521,8 @@ namespace LiveKit.Proto {
         output.WriteRawTag(88);
         output.WriteEnum((int) EncryptionType);
       }
+      audioFeatures_.WriteTo(output, _repeated_audioFeatures_codec);
+      frameMetadataFeatures_.WriteTo(output, _repeated_frameMetadataFeatures_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2466,6 +2577,8 @@ namespace LiveKit.Proto {
         output.WriteRawTag(88);
         output.WriteEnum((int) EncryptionType);
       }
+      audioFeatures_.WriteTo(ref output, _repeated_audioFeatures_codec);
+      frameMetadataFeatures_.WriteTo(ref output, _repeated_frameMetadataFeatures_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2509,6 +2622,8 @@ namespace LiveKit.Proto {
       if (HasEncryptionType) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) EncryptionType);
       }
+      size += audioFeatures_.CalculateSize(_repeated_audioFeatures_codec);
+      size += frameMetadataFeatures_.CalculateSize(_repeated_frameMetadataFeatures_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2554,6 +2669,8 @@ namespace LiveKit.Proto {
       if (other.HasEncryptionType) {
         EncryptionType = other.EncryptionType;
       }
+      audioFeatures_.Add(other.audioFeatures_);
+      frameMetadataFeatures_.Add(other.frameMetadataFeatures_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2617,6 +2734,16 @@ namespace LiveKit.Proto {
             EncryptionType = (global::LiveKit.Proto.EncryptionType) input.ReadEnum();
             break;
           }
+          case 98:
+          case 96: {
+            audioFeatures_.AddEntriesFrom(input, _repeated_audioFeatures_codec);
+            break;
+          }
+          case 106:
+          case 104: {
+            frameMetadataFeatures_.AddEntriesFrom(input, _repeated_frameMetadataFeatures_codec);
+            break;
+          }
         }
       }
     #endif
@@ -2678,6 +2805,16 @@ namespace LiveKit.Proto {
           }
           case 88: {
             EncryptionType = (global::LiveKit.Proto.EncryptionType) input.ReadEnum();
+            break;
+          }
+          case 98:
+          case 96: {
+            audioFeatures_.AddEntriesFrom(ref input, _repeated_audioFeatures_codec);
+            break;
+          }
+          case 106:
+          case 104: {
+            frameMetadataFeatures_.AddEntriesFrom(ref input, _repeated_frameMetadataFeatures_codec);
             break;
           }
         }
