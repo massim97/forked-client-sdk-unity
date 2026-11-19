@@ -431,6 +431,7 @@ namespace LiveKit
                         else
                         {
                             Utils.Debug("Unable to find local track after unpublish: " + e.LocalTrackUnpublished.PublicationSid);
+                            LocalTrackUnpublished?.Invoke(null, LocalParticipant);
                         }
                     }
                     break;

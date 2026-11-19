@@ -3,6 +3,7 @@ using LiveKit.Proto;
 using Unity.Collections;
 using UnityEngine.Experimental.Rendering;
 using System.Runtime.InteropServices;
+using System;
 
 namespace LiveKit
 {

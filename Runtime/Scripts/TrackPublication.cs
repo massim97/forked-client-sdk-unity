@@ -75,6 +75,11 @@ namespace LiveKit
             using var response = request.Send();
         }
 
+        public void SetEnabled(bool enabled)
+        {
+            Track?.SetEnabled(enabled);
+        }
+
         /// <summary>
         /// For video tracks that support simulcasting, adjust subscribed quality.
         ///
